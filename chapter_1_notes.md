@@ -16,4 +16,32 @@
    print("This is", name)   #output is This is cs149
    ```
 
-3. 
+2. Keeping output on the same line by 'end'
+   ```python
+   print("Hello", end=", ")
+   print("World!")
+
+   # output is Hello, World
+   ```
+
+3. Escape characters in Python are used to represent certain special characters within a string. They are introduced with a backslash (```\```).
+   Here’s a list of common escape characters in Python and their meanings:
+   1. Newline (```\n```)
+      ```python
+      print("Hello\nWorld!")
+      ```
+      Output is
+      ```python
+      Hello
+      World!
+      ```
+   2. Tab (`\t`): Inserts a horizontal tab (equivalent to pressing the Tab key).
+      ```python
+      print("Hello\tWorld!")
+      ```
+      ```python
+      Hello   World!
+      ```
+   3. 
+
+
