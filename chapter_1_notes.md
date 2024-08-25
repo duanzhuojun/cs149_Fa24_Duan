@@ -19,7 +19,7 @@
 
 ## Exercise in Python Style
 - Create 'Exercise' under your 'cs149' top directory
-- Download  payroll.py and  setup.cfg
+- Download [payroll.py](payroll.py) and [setup.cfg](setup.cfg)
 - Run payroll.py first to see how it works
 - Run `!flake8 payroll.py` in the shell
    - You should see several lines of output
