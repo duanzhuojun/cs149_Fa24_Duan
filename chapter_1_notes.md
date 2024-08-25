@@ -6,4 +6,3 @@
    1. Short lectures about chapter 1 
    2. In-class practice
 
-
