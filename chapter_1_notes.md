@@ -78,5 +78,30 @@
    Enter second Integer: 12
    a + b = 22
    ```
+ ### variables 
+ In Python, variables can store different types of data, including strings, integers, and floats. 
+ 1. String Variables: A sequence of characters enclosed in quotes
+   ```python
+   name = "cs149" # double quotaion
+   greeting = 'Welcome to' # single quotation
 
+   full_greeting = greeting + ", " + name + "!" #Concatenation
+   repeat = "Ha" * 3                            #Repetition
+   print(full_greeting)
+   print(repeat)
+   ```
+   The output is
+   ```
+   Welcome to, cs149!
+   HaHaHa
+   ```
+2. Integer variables are whole numbers without decimals and float variables are numbers with decimals.
+   ```python
+   num1 = 25 #integer 
+   num2 = 2024  #integer
+   price = 1.99 # float
+
+   bill = price * 2
+   s = num1 + num2
+   ```
 
