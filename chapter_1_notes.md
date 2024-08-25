@@ -10,10 +10,10 @@
 #### In Python, the print() function is used to output data to the console. There are several ways to use print() depending on what you want to achieve.
 1. Basic way
    ```python
-   print("Hello, World!")
+   print("Hello, World!")   #output is Hello, World!
    
    name = "cs149"
-   print("This is", name)
+   print("This is", name)   #output is This is cs149
    ```
 
 3. 
