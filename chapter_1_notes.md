@@ -12,8 +12,32 @@
    - PEP 8 – Style Guide for Python Code(Prettier version: https://pep8.org/)
 - PEP 257 – Docstring Conventions
 - Check your code before submitting to Gradescope!
-   - Installing Thonny, flake8
-   - Docstring Requirements
+   - [Installing Thonny, flake8](https://w3.cs.jmu.edu/cs149/f24/info/thonny/)
+   - [Docstring Requirements](https://w3.cs.jmu.edu/cs149/f24/info/docstyle/)
+
+## Exercise in Python Style
+- Create 'Exercise' under your 'cs149' top directory
+- Download  payroll.py and  setup.cfg
+- Run payroll.py first to see how it works
+- Run `!flake8 payroll.py` in the shell
+   - You should see several lines of output
+   - `payroll.py:4:18 means "Line 4, Char 18"`
+- Correct each issue, one by one, in the editor
+- Rerun flake8 by pressing `Up+Enter` in the shell
+- If you finish early, delete setup.cfg and go all the way PEP 8
+   - Our config does not enforce all of PEP 8's requirements
+- Every Python file you submit to gradescop must include a docstring at the top that includes the following lines: (1) a short description, (2) your name, and (3) the date. [Read more](https://w3.cs.jmu.edu/cs149/f24/info/docstyle/)
+  ```
+      Module for determining how many cakes are needed for a party.
+
+      This program will prompt the use to enter the number of guests, how
+      many slices are in each cake, and how many slices each guest will eat.
+      It will then print a nicely formatted report describing how many cakes
+      will be needed and how many slices will be left over.
+
+      Author: Fernando Corbató
+      Version: 10/30/2024
+  ```    
 
 ## Mini lectures/Demos
 Keywords: `print`, `input`, `end = `, `sep = `, 'escape', 'variable', 'String'
