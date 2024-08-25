@@ -3,8 +3,10 @@
 2. [Video](https://www.youtube.com/watch?v=rtnzmbBqVfI) to Explain Gradescope feedback.  From Dr. Nathan Sprague
 3. Thursday’ class: In King 248 lab
 4. Today’s class
-   1. Short lectures about chapter 1 
-   2. In-class practice
+   1. Python Style activity
+   2. Short lectures about chapter 1 
+   3. In-class practice
+   4. Homework 1 QA
 
 ## Python Style Guide
 
