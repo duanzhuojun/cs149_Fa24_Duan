@@ -52,14 +52,15 @@
       This is a backslash: \
       ```
    ### The `input()` function in Python allows you to take user input from the console. The function reads a line from the input, converts it into a string, and returns it.
-   1.  Example 1: Simple Input
+   1. Simple Input
    ```python
    name = input("Enter your name: ")
    print("Hello,", name)
    ```
-   This code will display the message "Enter your name: " and wait for the user to type something. Once the user presses    Enter, it captures the input as a string and stores it in the variable name, then prints a greeting.
+   This code will display the message "Enter your name: " and wait for the user to type something. Once the user presses   
+    Enter, it captures the input as a string and stores it in the variable name, then prints a greeting.
 
-  2. Example 2: Converting Input. By default, `input()` returns the entered data as a string. To use the input as a different data type, you need to convert it.
+   2. Converting Input. By default, `input()` returns the entered data as a string. To use the input as a different data type, you need to convert it.
    ```python
    a = int(input("Enter first Integer: "))
    b = int(input("Enter second Integer: "))
