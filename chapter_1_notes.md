@@ -6,3 +6,14 @@
    1. Short lectures about chapter 1 
    2. In-class practice
 
+### Mini lectures/Demos
+#### In Python, the print() function is used to output data to the console. There are several ways to use print() depending on what you want to achieve.
+1. Basic way
+   ```python
+   print("Hello, World!")
+   
+   name = "cs149"
+   print("This is", name)
+   ```
+
+3. 
