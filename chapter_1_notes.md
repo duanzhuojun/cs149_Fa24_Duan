@@ -21,7 +21,7 @@
    print("Hello", end=", ")
    print("World!")
 
-   # output is Hello, World
+   # output is Hello, World!
    ```
 3. Specifying the separator between multiple arguments by 'sep'
     ```python
