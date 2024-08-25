@@ -6,7 +6,7 @@
    1. Short lectures about chapter 1 
    2. In-class practice
 
-## Python Style Guide [10 min]
+## Python Style Guide
 
 - PEP = Python Enhancement Proposal
    - PEP 8 – Style Guide for Python Code(Prettier version: https://pep8.org/)
