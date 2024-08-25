@@ -6,6 +6,15 @@
    1. Short lectures about chapter 1 
    2. In-class practice
 
+## Python Style Guide [10 min]
+
+- PEP = Python Enhancement Proposal
+   - PEP 8 – Style Guide for Python Code(Prettier version: https://pep8.org/)
+- PEP 257 – Docstring Conventions
+- Check your code before submitting to Gradescope!
+   - Installing Thonny, flake8
+   - Docstring Requirements
+
 ## Mini lectures/Demos
 Keywords: `print`, `input`, `end = `, `sep = `, 'escape', 'variable', 'String'
 ### In Python, the print() function is used to output data to the console. There are several ways to use print() depending on what you want to achieve.
