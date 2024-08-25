@@ -7,6 +7,7 @@
    2. In-class practice
 
 ## Mini lectures/Demos
+Keywords: 'print', 'input', 'end = ', 'sep = ', 'escape', 'variable', 'String'
 ### In Python, the print() function is used to output data to the console. There are several ways to use print() depending on what you want to achieve.
 1. Basic way
    ```python
