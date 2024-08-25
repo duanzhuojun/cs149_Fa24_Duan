@@ -55,6 +55,7 @@
       ```python
       This is a backslash: \
       ```
+   4. [More about escape sequences](https://learn.zybooks.com/zybook/JMUCS149Fall2024/chapter/1/section/7)
    ### The `input()` function in Python allows you to take user input from the console. The function reads a line from the input, converts it into a string, and returns it.
    1. Simple Input
    ```python
