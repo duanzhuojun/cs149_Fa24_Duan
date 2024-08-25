@@ -39,9 +39,18 @@
       ```python
       print("Hello\tWorld!")
       ```
+      Output is
       ```python
       Hello   World!
       ```
-   3. 
+   3. Backslash (`\\`): Inserts a literal backslash in the string.
+      ```python
+      print("This is a backslash: \\")
+      ```
+       Output is
+      ```python
+      This is a backslash: \
+      ```
+   #### In Python, the input() function is used to output data to the console. There are several ways to use print() depending on what you want to achieve.   
 
 
