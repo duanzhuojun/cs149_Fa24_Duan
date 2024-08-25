@@ -26,17 +26,17 @@
 - Rerun flake8 by pressing `Up+Enter` in the shell
 - If you finish early, delete setup.cfg and go all the way PEP 8
    - Our config does not enforce all of PEP 8's requirements
-- Every Python file you submit to gradescop must include a docstring at the top that includes the following lines: (1) a short description, (2) your name, and (3) the date. [Read more](https://w3.cs.jmu.edu/cs149/f24/info/docstyle/)
+- Every Python file for homework you submit to gradescop must include a docstring at the top that includes the following lines: (1) a short description, (2) a long description, (3) your name, and (4) the date. [Read more](https://w3.cs.jmu.edu/cs149/f24/info/docstyle/)
   ```
-      Module for determining how many cakes are needed for a party.
+  Module for determining how many cakes are needed for a party.
 
-      This program will prompt the use to enter the number of guests, how
-      many slices are in each cake, and how many slices each guest will eat.
-      It will then print a nicely formatted report describing how many cakes
-      will be needed and how many slices will be left over.
+  This program will prompt the use to enter the number of guests, how
+  many slices are in each cake, and how many slices each guest will eat.
+  It will then print a nicely formatted report describing how many cakes
+  will be needed and how many slices will be left over.
 
-      Author: Fernando Corbató
-      Version: 10/30/2024
+  Author: Fernando Corbató
+  Version: 10/30/2024
   ```    
 
 ## Mini lectures/Demos
