@@ -23,10 +23,14 @@
 
    # output is Hello, World
    ```
-
-3. Escape characters in Python are used to represent certain special characters within a string. They are introduced with a backslash (```\```).
+3. Specifying the separator between multiple arguments by 'sep'
+    ```python
+   print("Hello", "World", "!", sep="-")
+   # output is Hello-World-!
+   ```
+4. Escape characters in Python are used to represent certain special characters within a string. They are introduced with a backslash (`\`).
    Here’s a list of common escape characters in Python and their meanings:
-   1. Newline (```\n```)
+   1. Newline (`\n`)
       ```python
       print("Hello\nWorld!")
       ```
