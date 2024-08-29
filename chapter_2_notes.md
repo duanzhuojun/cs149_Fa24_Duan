@@ -3,13 +3,11 @@
    - Complete the [HW1 reflection quiz](https://canvas.jmu.edu/courses/2035420/quizzes/4476512?module_item_id=40470309) by end of today.
    - Read [chapter 2](https://canvas.jmu.edu/courses/2035420/assignments/18966141?module_item_id=40563343)
    - Complete [HW 2](https://w3.cs.jmu.edu/cs149/f24/hw/hw2/) by 09/04(Wednesday, 11:00pm)
-2. Prepare for the next week
-4. Thursday’ class: In King 248 lab
-5. Today’s class
+2. Today’s class
    1. HW1 debrief
    2. Python String formatting(f-String)
    3. POGIL - Arithmetic Expressions
-         - Scan the solution of POGIL and submit it to gradescope
+         - Scan the solution of POGIL and submit it to canvas
          - [How to scan](https://wiki.cs.jmu.edu/student/canvas/start)
 
 
