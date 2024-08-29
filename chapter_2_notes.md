@@ -1,12 +1,17 @@
 ## Announcement
-1. Assignments: Complete HW 1 by 08/28(Wednesday, 11:00pm)
-2. [Video](https://www.youtube.com/watch?v=rtnzmbBqVfI) to Explain Gradescope feedback.  From Dr. Nathan Sprague
-3. Thursday’ class: In King 248 lab
-4. Today’s class
-   1. Python Style activity
-   2. Short lectures about chapter 1 
-   3. In-class practice
-   4. Homework 1 QA
+1. Assignments:
+   - Complete the [HW1 reflection quiz](https://canvas.jmu.edu/courses/2035420/quizzes/4476512?module_item_id=40470309) by end of today.
+   - Read [chapter 2](https://canvas.jmu.edu/courses/2035420/assignments/18966141?module_item_id=40563343)
+   - Complete [HW 2](https://w3.cs.jmu.edu/cs149/f24/hw/hw2/) by 09/04(Wednesday, 11:00pm)
+2. Prepare for the next week
+4. Thursday’ class: In King 248 lab
+5. Today’s class
+   1. HW1 debrief
+   2. Python String formatting(f-String)
+   3. POGIL - Arithmetic Expressions
+         - Scan the solution of POGIL and submit it to gradescope
+         - [How to scan](https://wiki.cs.jmu.edu/student/canvas/start)
+
 
 ## Python String formatting(f-String)
 A Python f-string is a way to format strings in Python, f-strings are prefixed with an f or F before the opening quotation mark and allow you to embed expressions inside curly braces {} within the string. These expressions are evaluated at runtime, making f-strings a powerful tool for dynamic string generation.
