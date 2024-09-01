@@ -5,6 +5,7 @@
 2. Today’s class
    1. Arithmetic Expressions lecture
    2. Group activity: Practice Problems
+   3. If time, HW2 QA
   
 
 
