@@ -14,8 +14,8 @@
 ## Group activity: Practice Problems
 
 ### How to complete: 
-1. Solve the first problem as a team [15 min]
-2. Present solution(s) to the class [10 min]
+1. Solve the first problem as a team
+2. Present solution(s) to the class
 3. Solve the second problem individually
 4. Note that you don't need to submit anything for this activity
 
