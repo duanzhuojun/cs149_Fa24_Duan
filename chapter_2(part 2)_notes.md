@@ -8,7 +8,46 @@
    3. If time, HW2 QA
   
 
+## Arithmetic Expressions 
+Arithmetic: `+`, `-`, `*`, `**`, `/`, `//`, `%`
+Strings: `+` (concatenation), `*` (repetition)
 
+### `/`, `//`, and `%`
+1. **`/` (Division Operator)**: This operator performs **true division**, which means it divides the left operand by the right operand and returns the result as a float, even if both operands are integers.
+Example:
+     ```python
+     result = 7 / 2
+     print(result)  # Output: 3.5
+     ```
+
+2. **`//` (Floor Division Operator)**: This operator performs **floor division**, which means it divides the left operand by the right operand and returns the largest integer less than or equal to the result (i.e., it floors the result).
+Example:
+     ```python
+     result = 7 // 2
+     print(result)  # Output: 3
+     ```
+Note that if one or both operands are floats, the result will be a float (with the decimal part truncated), but if both operands are integers, the result will be an integer.
+
+3. **`%` (Modulus Operator)**: This operator returns the **remainder** of the division of the left operand by the right operand.
+Example:
+     ```python
+     result = 7 % 2
+     print(result)  # Output: 1
+     ```
+The result is the remainder when the left operand is divided by the right operand.
+
+### Examples:
+
+```python
+# True Division
+print(7 / 3)    # Output: 2.3333333333333335
+
+# Floor Division
+print(7 // 3)   # Output: 2
+
+# Modulus
+print(7 % 3)    # Output: 1
+```
 
 
 ## Group activity: Practice Problems
