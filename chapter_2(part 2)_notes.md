@@ -9,8 +9,8 @@
   
 
 ## Arithmetic Expressions 
-Arithmetic: `+`, `-`, `*`, `**`, `/`, `//`, `%`
-Strings: `+` (concatenation), `*` (repetition)
+- Arithmetic: `+`, `-`, `*`, `**`, `/`, `//`, `%`
+- Strings: `+` (concatenation), `*` (repetition)
 
 ### `/`, `//`, and `%`
 1. **`/` (Division Operator)**: This operator performs **true division**, which means it divides the left operand by the right operand and returns the result as a float, even if both operands are integers.
