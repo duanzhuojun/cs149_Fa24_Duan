@@ -48,5 +48,5 @@ Enter a total number of feet: 12345
 
 **Hint 2:** You will need to use floor division and remainder (`//` and `%`).
 
-**Hint 3:** Create a variable for the remaining feet. In the example above, the remaining feet is initially 12345. Once you figure out there are two full miles in 12345 feet (2 full miles is 10560 feet), then the remaining feet is 1785. How many full furlongs are in 1785 feet? Well, 2 again, since 
+**Hint 3:** Create a variable for the remaining feet. In the example above, the remaining feet is initially 12345. Once you figure out there are two full miles in 12345 feet (2 full miles is 10560 feet), then the remaining feet is 1785. How many full furlongs are in 1785 feet? Well, 2 again, since $$660 * 2 = 1320$$
 . And finally after we remove those 1320 from 1785, the remaining feet is 465.
