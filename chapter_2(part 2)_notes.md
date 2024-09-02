@@ -3,10 +3,36 @@
    - Read [chapter 2](https://canvas.jmu.edu/courses/2035420/assignments/18966141?module_item_id=40563343)
    - Complete [HW 2](https://w3.cs.jmu.edu/cs149/f24/hw/hw2/) by 09/04(Wednesday, 11:00pm)
 2. Today’s class
+   1. Error types 
    1. Arithmetic Expressions lecture
    2. Group activity: Practice Problems
    3. If time, HW2 QA
-  
+
+## Error types in Python
+1. Syntax
+   - Errors that Python finds before executing the code
+   - Incorrect syntax and indentation
+2. Runtime
+   - Errors that occur in a running program
+3. Logic
+   - A syntactically correct program without runtime errors
+   - BUT it doesn’t do what it was supposed to do
+```python
+# Syntax error example - missed the "" or '' for a string
+v = input(Enter an int value:)
+print(v)
+
+# Logic Error example - should have used 3 to divide the sum of h1, h2 , and h3.
+# find the average size of houses
+h1 = 1200
+h2 = 2600
+h3 = 1300
+avg = (h1 + h2 + h3) / 2
+
+# Runtime error example - arithmetic opertor - should be applied to two numberic values
+# Find the difference between two values
+print("The difference is ", "1.99" - 1.00)
+```
 
 ## Arithmetic Expressions 
 - Arithmetic: `+`, `-`, `*`, `**`, `/`, `//`, `%`
