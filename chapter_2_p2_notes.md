@@ -17,6 +17,7 @@
 3. Logic
    - A syntactically correct program without runtime errors
    - BUT it doesn’t do what it was supposed to do
+     
 ```python
 # Syntax error example: missed the "" or '' for a string
 v = input(Enter an int value:)
