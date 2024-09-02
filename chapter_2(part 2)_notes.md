@@ -18,18 +18,18 @@
    - A syntactically correct program without runtime errors
    - BUT it doesn’t do what it was supposed to do
 ```python
-# Syntax error example - missed the "" or '' for a string
+# Syntax error example: missed the "" or '' for a string
 v = input(Enter an int value:)
 print(v)
 
-# Logic Error example - should have used 3 to divide the sum of h1, h2 , and h3.
+# Logic Error example: should have used 3 to divide the sum of h1, h2 , and h3.
 # find the average size of houses
 h1 = 1200
 h2 = 2600
 h3 = 1300
 avg = (h1 + h2 + h3) / 2
 
-# Runtime error example - arithmetic opertor - should be applied to two numberic values
+# Runtime error example: arithmetic opertor - should be applied to two numberic values
 # Find the difference between two values
 print("The difference is ", "1.99" - 1.00)
 ```
