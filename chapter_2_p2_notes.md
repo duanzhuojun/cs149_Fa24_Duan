@@ -7,9 +7,10 @@
       - we will practice this sample quiz 1 this Thursday(09/05) - Do not miss the class
 2. Today’s class
    1. Error types 
-   1. Arithmetic Expressions lecture
-   2. Group activity: Practice Problems
-   3. If time, HW2 QA
+   2. Arithmetic Expressions lecture
+   3. String basics
+   4. Group activity: Practice Problems
+   5. If time, HW2 QA
 
 ## Error types in Python (Zybook chapter 1.4)
 1. Syntax
@@ -79,6 +80,33 @@ print(7 // 3)   # Output: 2
 print(7 % 3)    # Output: 1
 ```
 
+## String basics
+A string is a sequence of characters, like the text MARY, that can be stored in a variable. A string literal is a string value specified in the source code of a program.
+```python
+my_string = "Hello, World!"
+
+# Accessing characters using positive indices
+first_char = my_string[0]   # 'H'
+fifth_char = my_string[4]    # 'o'
+
+# Accessing characters using negative indices
+last_char = my_string[-1]    # '!'
+second_last_char = my_string[-2]  # 'd'
+
+print(f"Length is: {len(my_string )}")
+print(f"First character: {first_char}")
+print(f"Fifth character: {fifth_char}")
+print(f"Last character: {last_char}")
+print(f"Second last character: {second_last_char}")
+```
+Output is
+```
+Length is: 13
+First character: H
+Fifth character: o
+Last character: !
+Second last character: d
+```
 
 ## Group activity: Practice Problems
 
