@@ -11,7 +11,7 @@
    2. Group activity: Practice Problems
    3. If time, HW2 QA
 
-## Error types in Python
+## Error types in Python (Zybook chapter 1.4)
 1. Syntax
    - Errors that Python finds before executing the code
    - Incorrect syntax and indentation
