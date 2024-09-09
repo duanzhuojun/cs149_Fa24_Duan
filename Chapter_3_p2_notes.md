@@ -136,18 +136,35 @@ Write a program named `play.py` that begins with the following lines:
 temperature = 90
 is_summer = False
 # Add your code here
-
 ```
 The program should print "play!" if Alice plays and "Not play!" otherwise.
 
 This question is rewritten from the original version in [condingbat](https://codingbat.com/python)
 ### Test your code using following test cases:
-If `temperature = 70` and `is_summer = False`, the program should print "play!".
-If `temperature = 95` and `is_summer = False`, the program should print "Not play!".
-If `temperature = 95` and `is_summer = True`, the program should print "play!".
+- If `temperature = 70` and `is_summer = False`, the program should print "play!".
+- If `temperature = 95` and `is_summer = False`, the program should print "Not play!".
+- If `temperature = 95` and `is_summer = True`, the program should print "play!".
+- If `temperature = 60` and `is_summer = False`, the program should print "play!".
+- If `temperature = 50` and `is_summer = False`, the program should print "Not play!".
 
 
 ## Coding practice 2
+The number 6 is a truly great number. Given two int values, `a` and `b`, print "Love6!" if either one is 6, or if their sum or difference is 6. Otherwise, print "Not Love6!". Note: the function **abs(num)** computes the absolute value of a number.
 
+Write a program named `love6.py` that begins with the following lines:
+```python
+# You can change the values of a and b
+a = 10
+b = 4
+# Add your code here
+```
+### Test your code using following test cases:
+- If `a = 6` and `b = 4`, the program should print "Love6!".
+- If `a = 6` and `b = 6`, the program should print "Love6!".
+- If `a = 2` and `b = 8`, the program should print "Love6!".
+- If `a = 3` and `b = 3`, the program should print "Love6!".
+- If `a = 1` and `b = 4`, the program should print "Not Love6!".
+- If `a = 2` and `b = 5`, the program should print "Not Love6!".
+- If `a = 4` and `b = 8`, the program should print "Not Love6!".
 
 
