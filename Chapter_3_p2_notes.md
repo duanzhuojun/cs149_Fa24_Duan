@@ -8,9 +8,9 @@
       - [First Year Kickoff 9/11](https://w3.cs.jmu.edu/cs149/f24/csit/kickoff/): Wed, Sep 11th at 5:15pm in EnGeo 2301
       - [Social meeting of WIT club](WIT_social_meeting.png): Thursday, Sep 12th at 6:00pm in King 348
 2. Today’s class
-   1. Mini-lecture: Relational Operators and logial operators
-   2. Group activity: Tracing Practice
-   3. Coding practice
+   1. (10 mins)Mini-lecture: Relational Operators and logial operators
+   2. (20 mins)Group activity: Tracing Practice
+   3. (30 mins)Coding practice
 
 ## Boolean expressions
 
@@ -167,4 +167,22 @@ b = 4
 - If `a = 2` and `b = 5`, the program should print "Not Love6!".
 - If `a = 4` and `b = 8`, the program should print "Not Love6!".
 
-
+## Coding practice 3
+You are driving a little too fast, and a police officer stops you. If speed is 60 or less, the result is "no ticket". If speed is between 61 and 80 inclusive, the result is "small ticket". If speed is 81 or more, the result is "big ticket". Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
+Write a program named `speed.py` to print the result: "no ticket", "small ticket", or "big ticket". 
+```python
+# You can change the values of speed and is_birthday
+speed = 10
+is_birthday = True
+# Add your code here
+```
+### Test your code using following test cases:
+- If `speed = 60` and `is_birthday = False`, the program should print "no ticket".
+- If `speed = 65` and `is_birthday = True`, the program should print "no ticket".
+- If `speed = 40` and `is_birthday = False`, the program should print "no ticket".
+- If `speed = 65` and `is_birthday = False`, the program should print "small ticket".
+- If `speed = 85` and `is_birthday = True`, the program should print "small ticket".
+- If `speed = 75` and `is_birthday = True`, the program should print "small ticket".
+- If `speed = 90` and `is_birthday = False`, the program should print "big ticket".
+- If `speed = 85` and `is_birthday = False`, the program should print "big ticket".
+- If `speed = 100` and `is_birthday = True`, the program should print "big ticket".
