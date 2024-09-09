@@ -128,8 +128,26 @@ b2 = not x <= 0 or y <= 0
 b3 = not (x <= 0 or y <= 0)
 print(b1, b2, b3)
 ```
-## Coding practice
+## Coding practice 1
+Alice enjoys playing outdoors during most of the day. Specifically, she plays if the temperature is between 60 and 90 degrees (inclusive). However, if it's summer, she plays even when the temperature is up to 100 degrees.
+Write a program named `play.py` that begins with the following lines:
+```python
+# You can change the values of temperature and is_summer
+temperature = 90
+is_summer = False
+# Add your code here
 
+```
+The program should print "play!" if Alice plays and "Not play!" otherwise.
+
+This question is rewritten from the original version in [condingbat](https://codingbat.com/python)
+### Test your code using following test cases:
+If `temperature = 70` and `is_summer = False`, the program should print "play!".
+If `temperature = 95` and `is_summer = False`, the program should print "Not play!".
+If `temperature = 95` and `is_summer = True`, the program should print "play!".
+
+
+## Coding practice 2
 
 
 
