@@ -8,9 +8,9 @@
       - [First Year Kickoff 9/11](https://w3.cs.jmu.edu/cs149/f24/csit/kickoff/): Wed, Sep 11th at 5:15pm in EnGeo 2301
       - [Social meeting of WIT club](WIT_social_meeting.png): Thursday, Sep 12th at 6:00pm in King 348
 2. Today’s class
-   1. Mini-lecture: boolean expressions + branches
+   1. Mini-lecture: Relational Operators and logial operators
    2. Group activity: Tracing Practice
-   3. Coding practice:
+   3. Coding practice
 
 ## Boolean expressions
 
@@ -62,6 +62,74 @@ if not x == 10:
 ```
 #### Precedence of Logical Operators:
 `not` has the highest precedence, followed by `and`, and then `o`r. Use parentheses () to explicitly control precedence when combining these operators.
+
+## Group activity: Tracing Practice
+For each example: 
+1. Predict the output as a team (by hand, on paper)
+2. Use Thonny to see the actual output.
+### Example 1:
+```python 
+hat = "fedora"
+
+if hat == "fedora":
+    print("A")
+else:
+    print("B")
+
+print("C")
+```
+### Example 2:
+```python 
+x = 10
+
+if x < 100:
+    print("A")
+elif x < 50:
+    print("B")
+else:
+    print("C")
+
+print("D")
+```
+### Example 3:
+```python 
+x = 10
+
+if x < 100:
+    print("A")
+if x < 50:
+    print("B")
+
+print("C")
+```
+### Example 4:
+```python 
+x = 10
+hat = "fez"
+
+if x > 100 or hat == "fez":
+    print("A")
+    if x < 50:
+        print("B")
+    else:
+        print("C")
+else:
+    print("D")
+    if hat == "fedora":
+        print("E")
+print("F")
+```
+### Example 5:
+```python 
+x = 1.0
+y = 0.0
+b1 = x > 0 and y > 0
+b2 = not x <= 0 or y <= 0
+b3 = not (x <= 0 or y <= 0)
+print(b1, b2, b3)
+```
+## Coding practice
+
 
 
 
