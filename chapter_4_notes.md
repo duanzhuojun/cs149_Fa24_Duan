@@ -17,3 +17,8 @@
    - You can discuss it with the student next to you. 
    - Solution will be available in canvas. 
 ## Demos in Python Function
+
+## QA for quiz 1
+-Review questions from [Practice Quiz 1](https://w3.cs.jmu.edu/cs149/f24/quiz/practice1/)
+
+## In-class quiz 1
