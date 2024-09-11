@@ -9,3 +9,8 @@
    2. (10 mins)Demo: Python function
    3. (10 mins)QA for quiz 1
    4. (30 mins)In-class quiz 1
+
+## Activity: Introduction to Python function
+   - Download Pogil in [function introduction](Functions_Intro.pdf)
+   - Complete it in 15 minutes
+   - You can discuss it with the student next to you. 
