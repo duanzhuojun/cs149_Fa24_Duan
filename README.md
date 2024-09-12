@@ -6,5 +6,5 @@
 ## [Chapter_3_notes](Chapter_3_notes.md)
 - [In-class quiz procedures](In_class_Quiz_Procedures.md)
 ## [Chapter_3_part2_notes](Chapter_3_p2_notes.md)
-## [Chapter_4_notes](Chapter_4_notes.md)
+## [Chapter_4_notes](chapter_4_notes.md)
 
