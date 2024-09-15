@@ -3,7 +3,7 @@
 Author: CS149 instructors
 Version: 09/15/2024
 """
-def countPopular(count0, count1, count2):
+def count_popular(count0, count1, count2):
    # Invalid ballot count 
     if count0 < 0 or count1 < 0 or count2 < 0:
        return -1
@@ -37,7 +37,7 @@ def countPopular(count0, count1, count2):
     return max_candidate
 
 
-def countMajority(count0, count1, count2):
+def count_majority(count0, count1, count2):
     # Invalid ballot count 
     if count0 < 0 or count1 < 0 or count2 < 0:
        return -1
@@ -99,7 +99,7 @@ def count_odd(count0, count1, count2):
     if isOdd(count2):
         odd_count2 = count2 * 2
         
-    winner = countPopular(odd_count0, odd_count1, odd_count2)       
+    winner = count_popular(odd_count0, odd_count1, odd_count2)       
     return winner
 
 def count_even_odder(count0, count1, count2):
@@ -131,7 +131,7 @@ def count_even_odder(count0, count1, count2):
         else:
             odd_count2 = count2 - 10    
         
-    winner = countPopular(odd_count0, odd_count1, odd_count2)
+    winner = count_popular(odd_count0, odd_count1, odd_count2)
             
     return winner
 
