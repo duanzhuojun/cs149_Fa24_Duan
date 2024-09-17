@@ -4,8 +4,8 @@
    - Complete the HW4 reflection quiz in canvas by end of today. 
    - Quiz 1 reflection
    - Practice Quiz 2 on Thursday
-    - Chapters 3 and 4
-    - review HW3 and HW4, POGIL solutions
+      - Chapters 3 and 4
+      - review HW3 and HW4, POGIL solutions
    - Event: [What is CS Research?](https://w3.cs.jmu.edu/cs149/f24/csit/research/) - Friday 9/20 from 11:25–12:25 in King 259
 
 2. Today’s class
