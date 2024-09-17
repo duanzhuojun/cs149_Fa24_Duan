@@ -11,14 +11,14 @@
 2. Today’s class
    1. (5 mins) Review: Python function 
    2. (30 mins)Activity: More about Python function
-   3. (20 mins)Demo: Python function, parameters, arguments, return
+   3. (20 mins)Codingbat: Python function, parameters, arguments, return
    4. (10 mins)QA for HW4
 
 ## POGIL Activity: More about Python function
 1. Complete the activity as groups
 2. Group presenter should report when required
 3. [Python_Tutor](https://pythontutor.com/visualize.html#mode=edit)
-        - Visualize the flow of execution and memory contents
+   - Visualize the flow of execution and memory contents
 
 ## Codingbat
 [CodingBat.com](CodingBat.com) is a free site of live problems to build skill in Java and/or Python. CodingBat was created by Nick Parlante, who is Computer Science lecturer at Stanford.
