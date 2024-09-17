@@ -25,7 +25,7 @@
 
 You can set up the account after the class for your practice
 
-### Please solve following problems in order:
+### Please solve following problems in the given order:
 1. [hello_name](https://codingbat.com/prob/p115413)
 2. [in1to10](https://codingbat.com/prob/p158497)
 3. [makes10](https://codingbat.com/prob/p124984)
