@@ -15,9 +15,9 @@
    4. (10 mins)QA for HW4
 
 ## POGIL Activity: More about Python function
-    - Complete the activity as groups
-    - Group presenter should report when required
-    - [Python_Tutor](https://pythontutor.com/visualize.html#mode=edit)
+1. Complete the activity as groups
+2. Group presenter should report when required
+3. [Python_Tutor](https://pythontutor.com/visualize.html#mode=edit)
         - Visualize the flow of execution and memory contents
 
 ## Codingbat
