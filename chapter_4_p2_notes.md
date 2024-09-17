@@ -17,7 +17,8 @@
 ## POGIL Activity: More about Python function
     - Complete the activity as groups
     - Group presenter should report when required
-    - [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) - Visualize the flow of execution and memory contents
+    - [Python_Tutor](https://pythontutor.com/visualize.html#mode=edit)
+        - Visualize the flow of execution and memory contents
 
 ## Codingbat
 [CodingBat.com](CodingBat.com) is a free site of live problems to build skill in Java and/or Python. CodingBat was created by Nick Parlante, who is Computer Science lecturer at Stanford.
