@@ -23,6 +23,7 @@
 6. ```<= ```(Less than or equal to)
 
 ### Example:
+
 ```python
 a = 10
 b = 5
@@ -38,6 +39,7 @@ print(a <= b)  # Output: False
 Logical operators are used to combine conditional statements and control the flow of a program based on multiple conditions. The three primary logical operators in Python are: 'and', 'or', and 'not'.
 
 1. `and`: Returns `True` if **both** statements are `True`.
+
 ```python
 x = 5
 y = 10
@@ -46,6 +48,7 @@ if x > 0 and y > 5:
 # Output: Both conditions are True
 ```
 2. `or`: Returns `Tru`e if **at least one** of the statements is `True`.
+
 ```python
 x = 5
 y = 2
@@ -54,6 +57,7 @@ if x > 0 or y > 5:
 # Output: At least one condition is True
 ```
 3. `not`: Reverses the result, returning `True` if the statement is `False`.
+
 ```python
 x = 5
 if not x == 10:
@@ -68,6 +72,7 @@ For each example:
 1. Predict the output as a team (by hand, on paper)
 2. Use Thonny to see the actual output.
 ### Example 1:
+
 ```python 
 hat = "fedora"
 
@@ -79,6 +84,7 @@ else:
 print("C")
 ```
 ### Example 2:
+
 ```python 
 x = 10
 
@@ -92,6 +98,7 @@ else:
 print("D")
 ```
 ### Example 3:
+
 ```python 
 x = 10
 
@@ -103,6 +110,7 @@ if x < 50:
 print("C")
 ```
 ### Example 4:
+
 ```python 
 x = 10
 hat = "fez"
@@ -120,6 +128,7 @@ else:
 print("F")
 ```
 ### Example 5:
+
 ```python 
 x = 1.0
 y = 0.0
@@ -131,6 +140,7 @@ print(b1, b2, b3)
 ## Coding practice 1
 Alice enjoys playing outdoors during most of the day. Specifically, she plays if the temperature is between 60 and 90 degrees (inclusive). However, if it's summer, she plays even when the temperature is up to 100 degrees.
 Write a program named `play.py` that begins with the following lines:
+
 ```python
 # You can change the values of temperature and is_summer
 temperature = 90
@@ -152,6 +162,7 @@ This question is rewritten from the original version in [condingbat](https://cod
 The number 6 is a truly great number. Given two int values, `a` and `b`, print "Love6!" if either one is 6, or if their sum or difference is 6. Otherwise, print "Not Love6!". Note: the function **abs(num)** computes the absolute value of a number.
 
 Write a program named `love6.py` that begins with the following lines:
+
 ```python
 # You can change the values of a and b
 a = 10
@@ -170,6 +181,7 @@ b = 4
 ## Coding practice 3
 You are driving a little too fast, and a police officer stops you. If speed is 60 or less, the result is "no ticket". If speed is between 61 and 80 inclusive, the result is "small ticket". If speed is 81 or more, the result is "big ticket". Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
 Write a program named `speed.py` to print the result: "no ticket", "small ticket", or "big ticket". 
+
 ```python
 # You can change the values of speed and is_birthday
 speed = 10

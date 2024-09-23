@@ -15,6 +15,7 @@
 A Python f-string is a way to format strings in Python, f-strings are prefixed with an f or F before the opening quotation mark and allow you to embed expressions inside curly braces {} within the string. These expressions are evaluated at runtime, making f-strings a powerful tool for dynamic string generation.
 {} is called placeholder expressions or replacement field
 ### Example 1
+
 ```python
 name = "Tom"
 age = 18
@@ -24,10 +25,12 @@ message = f"My name is {name} and I am {age} years old."
 print(message)
 ```
 The output is
+
 ```
 My name is Tom and I am 18 years old.
 ```
 ### Example 2
+
 ```python
 v1 = 10
 v2 = 11
@@ -37,12 +40,14 @@ print(f'The results is {v1 + v2}')
 print(f'The results is {v1 + v2 = }')
 ```
 The output is
+
 ```
 The results is 21
 The results is v1 + v2 = 21
 ```
 ### Example 3
 f-strings can also format numbers, specify precision, and even call functions directly inside the string.
+
 ```python
 price = 1.99
 weight = 600.78
@@ -53,6 +58,7 @@ print(f'The cost is {cost:.2f}')
 print(f'The cost is {cost:,.2f}')
 ```
 The output is
+
 ```
 The cost is 1195.552200
 The cost is 1195.55

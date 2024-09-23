@@ -61,6 +61,7 @@ Note that if one or both operands are floats, the result will be a float (with t
 
 3. **`%` (Modulus Operator)**: This operator returns the **remainder** of the division of the left operand by the right operand.
 Example:
+
      ```python
      result = 7 % 2
      print(result)  # Output: 1
@@ -82,6 +83,7 @@ print(7 % 3)    # Output: 1
 
 ## String basics
 A string is a sequence of characters, like the text MARY, that can be stored in a variable. A string literal is a string value specified in the source code of a program.
+
 ```python
 my_string = "Hello, World!"
 
@@ -100,6 +102,7 @@ print(f"Last character: {last_char}")
 print(f"Second last character: {second_last_char}")
 ```
 Output is
+
 ```
 Length is: 13
 First character: H
@@ -120,6 +123,7 @@ Second last character: d
 Write a program named `bike_speed.py` that asks the user for the length of a bike race in miles and their finishing time for the race in hours, minutes, and seconds. The program then outputs their average speed in both miles per hour and kilometers per hour. When you output the speed you should show exactly 2 digits past the decimal place. 1 mile = 1.60934 kilometers.
 
 **Here is an example run of the program:**
+
 ```
 How many miles did you race? 18.66
 How much time did that take you in hours, minutes, and seconds?
@@ -137,6 +141,7 @@ Your speed was 25.55 mph, which is 41.12 kph.
 Write a program called `feet_convert.py` that inputs a total number of feet and divide that number into miles, furlongs, and feet. (A furlong is some old English measure nobody uses anymore, but let's do it anyway!) 1 mile is 5280 feet, and 1 furlong is 660 feet.
 
 **Here is an example run of the program:**
+
 ```
 Enter a total number of feet: 12345
 
