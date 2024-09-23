@@ -23,8 +23,8 @@
 3. After the class, scan the POGIL worksheet into a single PDF, submit the PDF to canvas. 
 
 ### code for model 2
-```python
 Python Code:
+```python
 va_schools = {"JMU", "GMU", "VCU", "VT", "ODU", "WM", "UVA"}
 two_letter = {"MU", "VT", "ND", "WM", "BC"}
 ```
