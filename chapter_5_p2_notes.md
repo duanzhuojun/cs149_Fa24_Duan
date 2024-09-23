@@ -18,9 +18,9 @@
 
 ## POGIL Activity: Container
 ### Instruction:
-    1. We will skip the **Model 1 Indexes and Values** during the class, you have to complete it after class
-    2. Work as groups to complete **Model 2 School Acronyms** and **Model 3 Keys and Values**
-    3. After the class, scan the POGIL worksheet into a single PDF, submit the PDF to canvas. 
+1. We will skip the **Model 1 Indexes and Values** during the class, you have to complete it after class
+2. Work as groups to complete **Model 2 School Acronyms** and **Model 3 Keys and Values**
+3. After the class, scan the POGIL worksheet into a single PDF, submit the PDF to canvas. 
 
 ### code for model 2
 ```python

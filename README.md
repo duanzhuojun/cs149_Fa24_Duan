@@ -9,4 +9,4 @@
 ## [Chapter_4 preview_notes](chapter_4_notes.md)
 ## [Chapter_4(part 2)_notes](chapter_4_p2_notes.md)
 ## [Chapter_5 preview notes](chapter_5_notes.md)
-## [[Chapter_5 part 2 notes]](chapter_5_p2_notes.md)
+## [Chapter_5 part 2 notes](chapter_5_p2_notes.md)
