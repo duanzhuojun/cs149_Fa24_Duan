@@ -66,4 +66,4 @@ The easiest way to sort three numbers in ascending order is by using a few simpl
 
 After these steps, the three numbers will be sorted in ascending order.
 ### Lab
-
+[Lab: Function practice](https://canvas.jmu.edu/courses/2035420/assignments/19169987?module_item_id=40887017)
