@@ -36,6 +36,7 @@ Every variable references exactly one object
 - See [complex example](https://pythontutor.com/render.html#mode=display) with many types of objects
 - `is` keyword compares object id's(variable's reference)
 - Example:
+
 ```python
 a = "123"
 b = "12"
@@ -51,6 +52,7 @@ else:
     print("a and b references the different objects")
 ```
 The output is
+
 ```
 a and b are with same value
 a and b references the different objects
