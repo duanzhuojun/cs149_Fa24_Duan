@@ -20,6 +20,7 @@ A variable or function object is only visible to part of a program, known as the
 - A local variable is defined inside a function and only accessible within that function.
 - **Scope**: It is limited to the block of code (usually a function) where it is defined. Once the function execution is complete, the local variable is destroyed.
 - **Used** when you want the variable to be restricted to a specific function to avoid interference with the global scope.
+
 ```python
 def local():
     name = "cs149"  # Local variable
@@ -46,6 +47,7 @@ my_global()  # Output: cs159
 ```
 
 ### To modify a global variable inside a function, you need to use the `global` keyword.
+
 ```python
 name = "cs240"  # Global variable
 
@@ -75,7 +77,7 @@ b = a
 
 3. In summary, objects are the actual data, while variables are references or labels that point to these objects.
 
-4. In [Python Tutor](https://pythontutor.com/visualize.html#mode=edit), a reference is shown as an arrow
+4. In [Python Tutor](https://pythontutor.com/render.html#mode=display), a reference is shown as an arrow
 
 5. **Container**: A container is an object that contains (references) other objects
     - list: `[1, 2, 3]` in brackets
