@@ -11,10 +11,35 @@
     - Thursday: 11:00 - 12:40pm
 
 ## Today's class
-1. (10 mins) Review Python List and Tuple
-1. (40 mins) POGIL Activity: Container
-2. (10 mins) HW5 hints
-3. (25 mins) [Lab: Function practice](https://canvas.jmu.edu/courses/2035420/assignments/19169987?module_item_id=40887017)
+1. (5 mins) Floating-point errors
+2. (5 mins) Review Python List and Tuple
+3. (40 mins) POGIL Activity: Container
+4. (10 mins) HW5 hints
+5. (25 mins) [Lab: Function practice](https://canvas.jmu.edu/courses/2035420/assignments/19169987?module_item_id=40887017)
+
+## Floating-point errors
+Read more about [Floating-point errors](https://openstax.org/books/introduction-python-programming/pages/2-4-floating-point-errors)
+
+1. Computers store information using 0's and 1's. All information must be converted to a string of 0's and 1's. Ex: 5 is converted to 101. Since only two values, 0 or 1, are allowed the format is called binary.
+2. Floating-point values are stored as binary by Python. The conversion of a floating point number to the underlying binary results in specific types of floating-point errors.
+3. A **round-off error**  occurs when floating-point values are stored erroneously as an approximation. The difference between an approximation of a value used in computation and the correct (true) value is called a round-off error.
+
+```python
+# example 1
+s = 0.1 + 0.1 + 0.1
+print("s is", s) # output: 
+print(s == 0.3)
+
+# example 2
+print(0.3 + 0.3 + 0.3 == 0.9)
+```
+The output is
+
+```
+s is 0.30000000000000004
+False
+False
+```
 
 ## POGIL Activity: Container
 ### Instruction:
