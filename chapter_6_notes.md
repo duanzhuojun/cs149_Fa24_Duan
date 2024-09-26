@@ -78,6 +78,7 @@ for key in week_days:
 ## A practice for quiz 2
 Write a function named `find_larger` which complies with the docstring below. Assume the two values passed to the function are different.
 
+```python
 """
 Compare two float values and return the larger one.
 
@@ -92,6 +93,7 @@ Args:
 Returns:
     float: The larger of the two values.
 """
-
+# Write your code here
+```
 
 
