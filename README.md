@@ -11,3 +11,4 @@
 ## [Chapter_5 preview notes](chapter_5_notes.md)
 ## [Chapter_5 part 2 notes](chapter_5_p2_notes.md)
 ## [Chapter_6 preview](chapter_6_notes.md)
+## [Chapter_6 part 2 notes](chapter_6_p2_notes.md)
