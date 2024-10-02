@@ -19,6 +19,7 @@
 - (15 minutes) Demo: 
     - `while` loop
     - `random` module
+- (10 minutes) HW6 review
 - (30 minutes) Practice quiz 3
 
 ## POGIL activity: `while` loop introduction
