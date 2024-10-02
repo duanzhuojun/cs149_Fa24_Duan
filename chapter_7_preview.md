@@ -13,7 +13,9 @@
 
 ## Today's class
 -(20 minutes) POGIL activity: `while` loop introduction
--(15 minutes) Demo: `while` loop
+-(15 minutes) Demo: 
+    - `while` loop
+    - `random` module
 -(30 minutes) Practice quiz 3
 
 ## POGIL activity: `while` loop introduction
@@ -60,6 +62,34 @@ average = total / count
 
 # Print the average
 print(f"The average of the entered numbers is: {average}")
+```
+
+### `random` module
+The random module, in the Python Standard Library, provides methods that return random values. 
+
+```python
+# imports random module
+import random
+
+# The random() method returns a random floating-point value each time the function is called, in the range 0 (inclusive) to 1 (exclusive).
+# Generates a random floating point number 
+print(random.random())
+print(random.random())
+
+# randint(min, max)
+# Generate a random int between min and max inclusive.
+x = random.randint(1, 10)
+print(x)
+
+# Generate 20 random int from 1 to 6, and put them in a list
+rand = []
+i = 0
+while i < 20:
+    y = random.randint(1,6)
+    rand.append(y)
+    i = i + 1
+
+print(rand)
 ```
 
 
