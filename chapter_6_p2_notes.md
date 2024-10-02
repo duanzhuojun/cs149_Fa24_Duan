@@ -59,7 +59,8 @@ if __name__ == "__main__":
 
 ## Extra Practices in CodingBat
 
-**Note**: Do not use the built-in `min()`, `max()`, or `sum()` functions for any of these problems.
+**Note**: 
+- Do not use the built-in `min()`, `max()`, or `sum()` functions for any of these problems.
 
 - [List-2 Problems](https://codingbat.com/python/List-2)
     - Easier: count_evens, has22
