@@ -15,11 +15,11 @@
     - This lab would not go into your grades. 
 
 ## Today's class
--(20 minutes) POGIL activity: `while` loop introduction
--(15 minutes) Demo: 
+- (20 minutes) POGIL activity: `while` loop introduction
+- (15 minutes) Demo: 
     - `while` loop
     - `random` module
--(30 minutes) Practice quiz 3
+- (30 minutes) Practice quiz 3
 
 ## POGIL activity: `while` loop introduction
 - Complete the `while` loop introduction worksheet in 10 minutes
