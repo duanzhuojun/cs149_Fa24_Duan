@@ -10,6 +10,9 @@
     - Review all POGIL solutions related to the quiz on Canvas.
     - Go over Homework 5 and 6 thoroughly.
     - Retake the practice Quiz 3 within 24 hours before the actual quiz.
+3. Optional Lab: [Haiku](https://canvas.jmu.edu/courses/2035420/assignments/19197962).
+    - Practice conditionals, functions, using a helper function, loops, lists and strings
+    - This lab would not go into your grades. 
 
 ## Today's class
 -(20 minutes) POGIL activity: `while` loop introduction
