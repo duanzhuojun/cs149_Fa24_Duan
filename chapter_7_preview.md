@@ -27,6 +27,42 @@
     - [`while` loop introduction worksheet](pogil_sheet\While_Loops_part1.pdf)
 - Discuss using the correct solution with your deskmates:
 
+### Code snippets used in Model 1:
+
+Snippet 1:
+
+```python
+i = 0
+while i < 3:
+    print("the number is", i)
+    i = i + 1
+print("goodbye")
+```
+Snippet 2:
+
+```python
+while i < 3:
+    i = i + 1
+    print("the number is", i)
+```
+Snippet 3:
+
+```python
+total = 0
+count = 0
+
+n = None
+while n != 0:
+    n = float(input("Next number: "))
+    total += n
+    count += 1
+
+print()
+print("Total:", total)
+print("Count:", count)
+```
+
+
 ## Demo: `while` loop
 
 ### Task 1: Ask the user to enter 5 integer values using the keyboard, then calculate and print the average of those values.
@@ -67,6 +103,7 @@ average = total / count
 # Print the average
 print(f"The average of the entered numbers is: {average}")
 ```
+
 
 ### `random` module
 The random module, in the Python Standard Library, provides methods that return random values. 
