@@ -1,8 +1,8 @@
 ## Announcement
 1. Assignments:
-- Complete [HW 7](https://w3.cs.jmu.edu/cs149/f24/hw/hw7/) by 10/09(Wednesday, 11:00pm)
+- Complete [HW 7](https://w3.cs.jmu.edu/cs149/f24/hw/hw7/) by 10/09(Wednesday, 11:00pm, no later than 8:00am this Thursday)
 - Complete the HW7 reflection quiz in canvas by end of this Thursday. 
-2. Quiz 3 next Thursday(10/10)
+2. Quiz 3 this Thursday(10/10)
 - cover chapters 5 and 6: container, for loop, range, and so on
     - No while and no random
 - How to Prepare for Quiz 3:
