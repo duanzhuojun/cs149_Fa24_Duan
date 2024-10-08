@@ -5,7 +5,7 @@
 - Complete the HW6 reflection quiz in canvas by end of this Thursday. 
 
 2. Quiz 3 next Thursday(10/10)
-- cover chapters 5 and 6: function, for loop, range, and so on
+- cover chapters 5 and 6: containers, for loop, range, and so on
 - How to Prepare for Quiz 3:
     - Review all POGIL solutions related to the quiz on Canvas.
     - Go over Homework 5 and 6 thoroughly.

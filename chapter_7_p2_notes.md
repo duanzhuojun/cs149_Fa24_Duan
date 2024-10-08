@@ -16,14 +16,16 @@
 
 ## Today's class
 - (35 mins)POGIL: `Random Numbers`  and `while vs for`
-- (20 mins)Practice quiz 3 coding portion review
+- (10 mins)Practice quiz 3 coding portion review
     - review container
 - (20 mins)In-class practices
+- HW7 QA
+
 
 ## POGIL: `Random Numbers`  and `while vs for`
-- Work with your group partners to complete Models 2 and 3.
+- Work with your group partners to complete Models 2 and 3:[POGIL worksheet](pogil_sheet\WhileRandom.pdf).
 - The code used in the POGIL activities is provided below.
-- After class, scan your solutions for Models 2 and 3 and submit them to Canvas.
+- After class, submit your solutions for Models 2 and 3 and submit them to Canvas.
     - If you missed class today, you can download the [POGIL worksheet](pogil_sheet\WhileRandom.pdf), complete it, and submit it to Canvas.
 - Solutions will be posted in canvas this weekend.
 
@@ -99,9 +101,10 @@ def limit_letters(counts, limit):
             s.add(letter)
     return s
 ```
+Notes: the two practices below are from Dr. Mayfield. 
 
 ## In-class practice 1
-Write a function named `find_short(words)` that takes a list of words and returns the words that with first letter as 'M'. Do not change the list you are given. Instead, follow these steps:
+Write a function named `find_M(words)` that takes a list of words and returns the words that with first letter as 'M'. Do not change the list you are given. Instead, follow these steps:
 
 1. Create an empty list.
 2. Write a for loop that adds one word at a time to the end of the list.
@@ -109,4 +112,8 @@ Write a function named `find_short(words)` that takes a list of words and return
 
 Repeat the exercise using `set` and `dict` as the return type. For `dict`, use the word for the key and the length for the value.
 
+## In-class practice 2
+Write a function named `five_star(hotels)` that takes a dictionary of hotel names and ratings. Return a list of hotels that have a rating of 4.5 or higher. 
+- Ex: Given `{"Ritz": 5.0, "Marriott": 4.5, "Madison": 4.2}`, return `["Ritz", "Marriott"]`.
 
+- Repeat the exercise using a list of tuples as the input. Ex: [("Ritz", 5.0), ("Marriott", 4.5), ("Madison", 4.2)].
