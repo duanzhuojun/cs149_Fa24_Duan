@@ -44,7 +44,7 @@ while guess != number:
     if guess > number:
         print("Too high!")
     elif guess < number:
-    print("Too low!")
+        print("Too low!")
 
 print("You got it!")
 ```
