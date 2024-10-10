@@ -1,7 +1,7 @@
 ## Announcement
 1. Assignments:
 - Complete the HW7 reflection quiz in canvas by end of this Thursday. 
-2. PA1: Flexdoko (modules + testing) - will be posted soom
+2. PA1: Flexdoko (modules + testing) - will be posted soon
 - Part A due Tuesday 10/22 (30 pts)
 - Part B due Tuesday 10/29 (70 pts)
 3. Class the next Tuesday(Oct 15): PyTest
