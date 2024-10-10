@@ -17,7 +17,7 @@ Note: The following table is not exhaustive. But these details can be useful to 
 
 | Name	|Create empty	|Operators	|Important methods|
 | ------- | ------- | ------- | ------- |
-|List	|[] or list()|	|[i], in, +, *	|append, count, index, insert, pop, remove|
+|List	|[] or list()|[i], in, +, *	|append, count, index, insert, pop, remove|
 |Tuple	|() or tuple()|	[i], in, +, *	|count, index|
 |Set	|set()| only	in|	add, pop, remove|
 |Dict	|{} or dict()|	[k], in|	get, items, pop|
