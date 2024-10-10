@@ -14,6 +14,7 @@
 
 ## Review containers
 Note: The following table is not exhaustive. But these details can be useful to memorize.
+
 | Name	|Create empty	|Operators	|Important methods|
 | ------- | ------- | ------- | ------- |
 |List	|[] or list()|	|[i], in, +, *	|append, count, index, insert, pop, remove|
