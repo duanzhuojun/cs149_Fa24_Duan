@@ -107,7 +107,7 @@ def  electoral_votes(votes_per_state, allocation_per_state):
             final_votes[c] = final_votes[c] + allocation_per_state[state]
     
     # use the  count_majority to find the winner
-    print(final_votes)
+    # print(final_votes)
     final_winner  = count_majority(final_votes)
     return final_winner
 
@@ -130,7 +130,7 @@ def IRV(ballot, candidates):
         first_choice = [0] * len(candidates)
         for rc in removed_candidates:
             first_choice[rc] = 0
-        print()
+        
         for voter in ballot:
             preference = ballot[voter]
             top = preference[1]
@@ -139,7 +139,7 @@ def IRV(ballot, candidates):
                 top = preference[i]
                 i = i + 1
             first_choice[top] = first_choice[top] + 1        
-        print(first_choice)
+        # print(first_choice)
         # Any one has a majority? If so, return the winner 
         winner = count_majority(first_choice)
         if winner >= 0:
@@ -160,7 +160,7 @@ def IRV(ballot, candidates):
                 fewest_candidate_index = index
         ## elimination
         removed_candidates.add(fewest_candidate_index)
-        print(removed_candidates) 
+        # print(removed_candidates) 
     
     # Handle the tie:
     if winner == -2:
@@ -172,15 +172,15 @@ def IRV(ballot, candidates):
         fourth_choice = [0] * len(candidates)
         for voter in ballot:
             preference = ballot[voter]
-            print(preference)
+            # print(preference)
             second_choice[preference[2]] += 1
             third_choice[preference[3]] += 1
             fourth_choice[preference[4]] += 1
-        print("second:", second_choice)
-        print("third:", third_choice)
-        print("forth:", fourth_choice)
+        # print("second:", second_choice)
+        # print("third:", third_choice)
+        # print("forth:", fourth_choice)
         temp = -2
-        print(left)
+        # print(left)
         if second_choice[left[0]] > second_choice[left[1]]:
             temp  = left[0]
         elif second_choice[left[0]] < second_choice[left[1]]:

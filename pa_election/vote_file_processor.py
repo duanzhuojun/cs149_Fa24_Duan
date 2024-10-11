@@ -42,7 +42,7 @@ def read_first_choice_per_state(ballot_file):
     file = open(ballot_file, "r")
     for line in file.readlines()[1: ]:
         items = line.split(",")
-        state = items[1]
+        state = items[1].strip()
         votes = [int(i) for i in items[2:]]
         first = votes.index(1)
         if state in votes_per_state:
@@ -97,10 +97,10 @@ def read_electoral_college(electoral_file):
     
 
 if __name__ == "__main__":       
-    r = read_first_choice("raw_ballot.csv")
-    r2 = read_first_choice_per_state("raw_ballot.csv")
-    r3 = read_complete_ballot("raw_ballot.csv")
-    r4 = read_electoral_college("Electoral_College.json")
-    print(r4)
+    r = read_first_choice("data/raw_ballot.csv")
+    r2 = read_first_choice_per_state("data/raw_ballot.csv")
+    r3 = read_complete_ballot("data/raw_ballot.csv")
+    r4 = read_electoral_college("data/Electoral_College.json")
+    # print(r2)
     
     
