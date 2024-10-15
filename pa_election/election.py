@@ -109,7 +109,7 @@ def electoral_votes(votes_per_state, allocation_per_state):
 
     # use the  count_majority to find the winner
     print(final_votes)
-    final_winner = count_majority(final_votes)
+    final_winner  = count_majority(final_votes)
     return final_winner
 
 
@@ -132,7 +132,7 @@ def IRV(ballot, candidates):
         first_choice = [0] * len(candidates)
         for rc in removed_candidates:
             first_choice[rc] = 0
-        print()
+
         for voter in ballot:
             preference = ballot[voter]
             top = preference[1]
@@ -174,15 +174,15 @@ def IRV(ballot, candidates):
         fourth_choice = [0] * len(candidates)
         for voter in ballot:
             preference = ballot[voter]
-            print(preference)
+            # print(preference)
             second_choice[preference[2]] += 1
             third_choice[preference[3]] += 1
             fourth_choice[preference[4]] += 1
-        print("second:", second_choice)
-        print("third:", third_choice)
-        print("forth:", fourth_choice)
+        # print("second:", second_choice)
+        # print("third:", third_choice)
+        # print("forth:", fourth_choice)
         temp = -2
-        print(left)
+        # print(left)
         if second_choice[left[0]] > second_choice[left[1]]:
             temp = left[0]
         elif second_choice[left[0]] < second_choice[left[1]]:

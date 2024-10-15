@@ -21,8 +21,15 @@ def create_fake_ballot_csv():
     out = open("raw_ballot.csv", "w")
     out.write("voterID, State, A, B, C, D\n")
     preference = [1,2,3,4]
-    for i in range(1000):
+    for i in range(1300):
         random.shuffle(preference)
+        line = f"Voter{i}, {random.choice(states_list)}, {', '.join(map(str, preference))}"
+        out.write(line + "\n")
+    for i in range(500):
+        line = f"Voter{i}, {random.choice(states_list)}, {', '.join(map(str, preference))}"
+        out.write(line + "\n")
+    preference = [2,1,3,4]
+    for i in range(300):
         line = f"Voter{i}, {random.choice(states_list)}, {', '.join(map(str, preference))}"
         out.write(line + "\n")
     out.close()
