@@ -2,7 +2,7 @@ import election
 
 allocation_per_state = {"VA": 13, "MD": 10, "WV": 4,
                         "NJ": 14, "PA": 19}
-
+#               states: candidate0, 1, 2, 3
 votes_per_state = {"VA": [10, 12, 13, 14],
                    "MD": [10, 1, 1, 10],
                    "WV": [10, 9, 8, 7],

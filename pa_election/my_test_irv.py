@@ -1,5 +1,6 @@
 import election
 
+# candidates IDs: 0, 1, 2, 3
 candidates = {0, 1, 2, 3}
 #voter ID: {first_choice: candidateID, second_choice: candidateID,...}
 # candidate IDs are 0, 1, 2, 3
