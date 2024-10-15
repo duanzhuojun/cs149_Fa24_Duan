@@ -15,3 +15,4 @@
 ## [Chapter_7 preview notes](chapter_7_preview.md)
 ## [Chapter_7 part 2 notes](chapter_7_p2_notes.md)
 ## [Quiz 3_practice notes](Quiz3_practice_notes.md)
+## [Chapter_8 notes](chapter_8_notes.md)
