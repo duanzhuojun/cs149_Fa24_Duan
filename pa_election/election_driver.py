@@ -35,12 +35,12 @@ winner_popular = election.count_popular(vote_counts)
 if winner_popular >= 0:
     print(f"Count Popular   \t\t{candidates[winner_popular]}")
 else:
-    print(f"Count Popular   \t\tInvalid")
+    print("Count Popular   \t\tInvalid")
 winner_majority = election.count_majority(vote_counts)
 if winner_majority >= 0:
     print(f"Count Majority   \t\t{candidates[winner_majority]}")
 else:
-    print(f"Count Majority   \t\tInvalid")
+    print("Count Majority   \t\tInvalid")
 
 vote_counts_states = vote_file_processor.read_first_choice_per_state(raw_ballot_file)
 electoral_college = vote_file_processor.read_electoral_college(electoral_file)
@@ -49,12 +49,12 @@ winner_electoral = election.electoral_votes(vote_counts_states, electoral_colleg
 if winner_electoral >= 0:
     print(f"Electoral Vote   \t\t{candidates[winner_electoral]}")
 else:
-    print(f"Electoral Vote   \t\tInvalid")
-    
+    print("Electoral Vote   \t\tInvalid")
+
 ballot = vote_file_processor.read_complete_ballot(raw_ballot_file)
-winner_irv = election.IRV(ballot, {0,1,2,3})
+winner_irv = election.irv(ballot, {0, 1, 2, 3})
 if winner_irv >= 0:
     print(f"IRV              \t\t{candidates[winner_irv]}")
 else:
-    print(f"IRV               \t\tInvalid")
+    print("IRV               \t\tInvalid")
 print("-------------------------------------------------------")

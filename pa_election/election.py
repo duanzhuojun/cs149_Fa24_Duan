@@ -109,11 +109,11 @@ def electoral_votes(votes_per_state, allocation_per_state):
 
     # use the  count_majority to find the winner
     print(final_votes)
-    final_winner  = count_majority(final_votes)
+    final_winner = count_majority(final_votes)
     return final_winner
 
 
-def IRV(ballot, candidates):
+def irv(ballot, candidates):
     """ Find the winner using Instant-runoff voting (IRV)
 
     reference: https://www.findlaw.com/voting/how-u-s--elections-work/instant-runoff-voting--how-does-it-work.html
@@ -121,6 +121,9 @@ def IRV(ballot, candidates):
     Args:
         ballot (dict): voters' preference over candidates
         candidates (set): candidate IDs
+
+    Returns:
+        int: winner
     """
     # candidates_set = candidates.copy()
     removed_candidates = set()
