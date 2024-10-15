@@ -17,7 +17,7 @@
 1. (20 mins) Modules
 - how to use `import`
 - Explain the purpose of the idiom `if __name__ == "__main__"`.
-2. (30 mins) PyTest
+2. (30 mins) [PyTest](https://w3.cs.jmu.edu/cs149/f24/info/pytest/)
 3. (25 mins) [PA1](https://w3.cs.jmu.edu/cs149/f24/pa/pa1/)
 - Complete the [Reading quiz](https://canvas.jmu.edu/courses/2035420/quizzes/4516302) in canvas
 
