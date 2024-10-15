@@ -20,6 +20,7 @@ def valid(tri):
     if len(tri) != 3:
         return False
     a, b, c, = sorted(tri)
+
     # if any side is not positive
     if a <= 0:
         return False

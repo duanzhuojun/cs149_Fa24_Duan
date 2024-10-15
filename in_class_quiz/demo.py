@@ -1,10 +1,8 @@
 i = 0
-# terminate if we meet 5
-lst = ["apple", "pear", "kiwi", "peach"]
-while i < len(lst) - 1:
-    print(lst[i])
-    i += 1
-    if len(lst[i]) <= 4:
+for i in [1,2,3,4]:
+    print(i)
+    if i == 3:
         continue
+    print("Done")
     
     
