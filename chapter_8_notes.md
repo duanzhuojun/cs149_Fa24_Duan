@@ -7,6 +7,9 @@
 - [Visual Studio Code Setup](https://w3.cs.jmu.edu/cs149/f24/info/vscode/)
 - We don't have time to set up your devices during the class
 - Ask for help from TA hours or my office hours
+3. Review your grading in canvas and gradescope
+- POGILs have not graded yet
+- Contact me if you have any concern in grading
 3. Withdraw date is Oct 23
 - Schedule a meeting with your advisor and me if you have any concern.
 
