@@ -55,7 +55,7 @@ def count_majority(vote_counts):
         vote_counts (list): votes the number of votes each candidate received
 
     Returns:
-        int: index of the winning candidate, or -1 if invalid, -2 if a tie
+        int: index of the winning candidate, or -1 if invalid, -2 if a tie, -3 if not majority
     """
     # first get the winner
     win = count_popular(vote_counts)
