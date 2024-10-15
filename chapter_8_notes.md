@@ -11,13 +11,18 @@
 - Schedule a meeting with your advisor and me if you have any concern.
 
 ## Today's class:
-1. (15 mins) Modules
+1. (20 mins) Modules
 - how to use `import`
 - Explain the purpose of the idiom `if __name__ == "__main__"`.
-
-2. (20 mins) PyTest
+2. (30 mins) PyTest
+3. (25 mins) PA1
 
 ## Modules
 - Write Python program in a **file** for execution, the file is also called as **script**.
 - **module**: a file containing Python code that can be imported and used by scripts, other modules, or the interactive interpreter
+- If if `__name__ == "__main__"` is true, then the file is being executed as a script and the branch is taken. Otherwise, the file was imported and thus `__name__` is equal to the module name
 - Demos
+
+## Installing/Running pytest
+- Open the [Tutorial](https://w3.cs.jmu.edu/cs149/f24/info/pytest/)
+- Follow the instructions to complete the pytest exercises

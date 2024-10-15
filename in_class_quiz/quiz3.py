@@ -33,6 +33,5 @@ def limit_letters(counts, limit):
     return s
 
 
-if __name__ == "__main__":
-    names = ["mayfield", "Sprague", "Shrestha", "wang", "Chao"]
-    names_cap(names)
+names = ["mayfield", "Sprague", "Shrestha", "wang", "Chao"]
+names_cap(names)
