@@ -1,9 +1,11 @@
 ## Table of Contents
-- [Announcements](#Announcements)
-- [Today's class](#Today's-class)
-- [Python string methods](#Practices:-Python-string-methods)
-- [Python list methods](#Practices:-Python-list-methods)
-- [Review while loop and modules](#Review-while-loop-and-modules)
+
+- [Announcements](#announcements)
+- [Today's class](#todays-class)
+- [Python string methods](#practices-python-string-methods)
+- [Python list methods](#practices-python-list-methods)
+- [Review 'while' loop and modules](#review-while-loop-and-modules)
+- [Practice Quiz 4](#practice-quiz-4)
 
 ## Announcements
 1. [PA 1 Flexdoko](https://w3.cs.jmu.edu/cs149/f24/pa/pa1/)
@@ -91,3 +93,7 @@ Define a Python function named as `sumDigits(s)` returns the sum of the digits 0
 ## Review while loop and modules
 
 ### TBA
+
+## Practice Quiz 4
+- (5 mins) Preparation: Please close your devices, take out your pencils, and sign your names on the hard copies.
+- (25 mins) Quiz: Complete the quiz, closed-book.
