@@ -1,4 +1,11 @@
-## Announcement
+## Table of Contents
+- [Announcements](#Announcements)
+- [Today's class](#Today's-class)
+- [Python string methods](#Practices:-Python-string-methods)
+- [Python list methods](#Practices:-Python-list-methods)
+- [Review while loop and modules](#Review-while-loop-and-modules)
+
+## Announcements
 1. [PA 1 Flexdoko](https://w3.cs.jmu.edu/cs149/f24/pa/pa1/)
 - Reading quiz in canvas - Done
 - Part A due Friday 10/25 (30 pts)
@@ -18,7 +25,7 @@
 3. (30 mins)Practice quiz 4
 
 
-## In-class practices in Python `String` methods
+## Practices: Python string methods
 
 ### Commonly used Python string methods.
 
@@ -62,7 +69,7 @@ Define a Python function named as `sumDigits(s)` returns the sum of the digits 0
 0
 ```
 
-## In-class practices in Python `List` methods
+## Practices: Python list methods
 
 ### Commonly used Python list methods
 #### Adding elements
@@ -81,6 +88,6 @@ Define a Python function named as `sumDigits(s)` returns the sum of the digits 0
 
 ### Practice 3: Codingbat [List-2](https://codingbat.com/python/List-2)
 
-## Review `while` loop and modules
+## Review while loop and modules
 
 ### TBA

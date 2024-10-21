@@ -1,4 +1,13 @@
-## Announcement
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Announcements](#announcements)
+- [Today's class](#todays-class)
+- [POGIL: Advanced Strings](#pogil-advanced-strings)
+  - [Code snippets used in Model 1:](#code-snippets-used-in-model-1)
+  - [Code snippets used in Model 2:](#code-snippets-used-in-model-2)
+- [Lab: List Play](#lab-list-play)
+
+## Announcements
 1. [PA 1 Flexdoko](https://w3.cs.jmu.edu/cs149/f24/pa/pa1/)
 - Reading quiz in canvas due Tuesday 10/22 - Today (10 pts)
 - Part A due Friday 10/25 (30 pts)
