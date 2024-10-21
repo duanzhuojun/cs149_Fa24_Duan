@@ -1,29 +1,22 @@
 ## Announcement
 1. [PA 1 Flexdoko](https://w3.cs.jmu.edu/cs149/f24/pa/pa1/)
-- Reading quiz in canvas due Tuesday 10/22 - Today (10 pts)
+- Reading quiz in canvas - Done
 - Part A due Friday 10/25 (30 pts)
 - Part B due Wednesday 10/30 (70 pts)
-1. Practice quiz 4 this Thursday 10/24, in King248
+2. Actual quiz 4 Next Thursday 10/31, in King248
 - Covers chapters 7 and 8: `while loop` and `modules`
 - New way: all written format
-- Do not miss it
-1. Reminder
-- [Set up Visual Studio Code]((https://w3.cs.jmu.edu/cs149/f24/info/vscode/)) for your own devices
-- Ask for help from TA hours or my office hours
-1. Withdraw date is Wednesday 10/23
-- I posted your Mid-term letter grades in canvas
-- Talk to your advisor and me if you have any concern.
+- Make sure you review the practice quiz 4 right before the actual quiz
+
 
 ## Today's class
-1. (35 mins)POGIL: Advanced Strings
-2. (25 mins)In-class practices
-   - Tips to use String methods in Python
-3. (15 mins)PA1 hints and QA
+1. (25 mins)In-class practices: Strings and Lists
+   - Python string methods review, practices
+   - Python list methods review, practices
+   - Tips to use string/list methods in Python
+2. (20 mins)Review `while` loop and modules
+3. (30 mins)Practice quiz 4
 
-## POGIL: Advanced Strings
-1. [POGIL worksheet](pogil_sheet\Act09-ListString_Student.pdf) in PDF
-2. After the class, scan it and submit to canvas individually
-3. Solution will be posted this weekend.
 
 ## In-class practices in Python `String` methods
 
@@ -87,3 +80,7 @@ Define a Python function named as `sumDigits(s)` returns the sum of the digits 0
 - The `split()` method splits a string into a list of substrings based on a specified delimiter (default is whitespace).
 
 ### Practice 3: Codingbat [List-2](https://codingbat.com/python/List-2)
+
+## Review `while` loop and modules
+
+### TBA

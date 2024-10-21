@@ -1,14 +1,14 @@
-def my_favorite_library(libraries, index):
+def my_favorite_library(libraries, i):
     count = len(libraries)
-    print(f"There are {count} at JMU open now. My favorite library is {libraries[index]}")
+    print(f"I love {libraries[i]} Library out of the {count} libraries.")
 
-jmu_libraries = ["Rose Library", "Express Library", "Music Library", "ETMC"]
-under_construction = "Carrier Library"
+jmu_libraries = ["Rose", "Express", "Music", "ETMC"]
+construction = "Carrier"
 
 for item in enumerate(jmu_libraries):
-    print(f"JMU library {item[0] + 1}: {item[1]}")
+    print(f"{item[0] + 1}: {item[1]} library")
     
-print(f"JMU library 5: {under_construction} under construction")
+print(f"5: {construction} library under construction")
 
 my_favorite_library(jmu_libraries, 0)
 
