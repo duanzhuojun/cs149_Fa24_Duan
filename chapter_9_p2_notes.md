@@ -1,4 +1,4 @@
-## Table of Contents
+## Table of Contents for Chapter 9 part 2 and Practice quiz 4
 
 - [Announcements](#announcements)
 - [Today's class](#todays-class)
