@@ -108,7 +108,7 @@ def electoral_votes(votes_per_state, allocation_per_state):
             final_votes[c] = final_votes[c] + allocation_per_state[state]
 
     # use the  count_majority to find the winner
-    print(final_votes)
+    # print(final_votes)
     final_winner = count_majority(final_votes)
     return final_winner
 
