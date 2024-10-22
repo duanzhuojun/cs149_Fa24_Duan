@@ -69,7 +69,7 @@ def count_majority(vote_counts):
         total = total + vote
 
     # check for majority
-    if vote_counts[win] <= 0.5 * total:
+    if vote_counts[win] < 0.5 * total:
         win = -3
 
     return win
