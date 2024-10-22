@@ -117,6 +117,7 @@ def irv(ballot, candidates):
     """ Find the winner using Instant-runoff voting (IRV)
 
     reference: https://www.findlaw.com/voting/how-u-s--elections-work/instant-runoff-voting--how-does-it-work.html
+    reference2: https://webwork.moravian.edu/100.2/instant-runoff-voting.html
 
     Args:
         ballot (dict): voters' preference over candidates
