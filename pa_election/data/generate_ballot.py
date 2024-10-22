@@ -1,4 +1,4 @@
-"""Generate the fake ballot data 
+"""Generate the fake ballot data
 
 Author: CS149 instructors
 Version: 10/08/2024
@@ -12,9 +12,9 @@ def create_states():
         lst = line.split(",")
         states.add(lst[1])
     file.close()
-    print(states)    
+    print(states)
 
-states = {'ND', 'MT', 'GA', 'KS', 'PA', 'DE', 'NV', 'NY', 'ME', 'MI', 'NE', 'SC', 'MO', 'AK', 'NH', 'NJ', 'CT', 'WA', 'IL', 'WV', 'DC', 'AR', 'NC', 'MA', 'TX', 'MN', 'MS', 'TN', 'ID', 'OH', 'OR', 'VT', 'MD', 'WI', 'OK', 'SD', 'KY', 'RI', 'CA', 'CO', 'FL', 'LA', 'IN', 'IA', 'WY', 'UT', 'NM', 'AL', 'AZ', 'VA', 'HI'}   
+states = {'ND', 'MT', 'GA', 'KS', 'PA', 'DE', 'NV', 'NY', 'ME', 'MI', 'NE', 'SC', 'MO', 'AK', 'NH', 'NJ', 'CT', 'WA', 'IL', 'WV', 'DC', 'AR', 'NC', 'MA', 'TX', 'MN', 'MS', 'TN', 'ID', 'OH', 'OR', 'VT', 'MD', 'WI', 'OK', 'SD', 'KY', 'RI', 'CA', 'CO', 'FL', 'LA', 'IN', 'IA', 'WY', 'UT', 'NM', 'AL', 'AZ', 'VA', 'HI'}
 
 states_list = list(states)
 def create_fake_ballot_csv():
@@ -33,4 +33,28 @@ def create_fake_ballot_csv():
         line = f"Voter{i}, {random.choice(states_list)}, {', '.join(map(str, preference))}"
         out.write(line + "\n")
     out.close()
-create_fake_ballot_csv()    
+
+def create_fake_ballot_csv_5():
+    out = open("raw_ballot_5.csv", "w")
+    out.write("voterID, State, A, B, C, D\n")
+    preference = [1,2,3,4]
+    for i in range(5):
+        random.shuffle(preference)
+        line = f"Voter{i}, {random.choice(states_list)}, {', '.join(map(str, preference))}"
+        out.write(line + "\n")
+
+    out.close()
+
+def create_fake_ballot_csv_100():
+    out = open("raw_ballot_100.csv", "w")
+    out.write("voterID, State, A, B, C, D\n")
+    preference = [1,2,3,4]
+    for i in range(100):
+        random.shuffle(preference)
+        line = f"Voter{i}, {random.choice(states_list)}, {', '.join(map(str, preference))}"
+        out.write(line + "\n")
+
+    out.close()
+# create_fake_ballot_csv()
+create_fake_ballot_csv_5()
+create_fake_ballot_csv_100()
