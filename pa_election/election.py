@@ -96,7 +96,7 @@ def electoral_votes(votes_per_state, allocation_per_state):
     states_winner = dict()
     for state in votes_per_state:
         votes = votes_per_state[state]
-        state_winner = count_popular(votes)
+        state_winner = count_majority(votes)
         states_winner[state] = state_winner
 
     # Assume 4 candidates
@@ -144,7 +144,7 @@ def irv(ballot, candidates):
                 top = preference[i]
                 i = i + 1
             first_choice[top] = first_choice[top] + 1
-        print(first_choice)
+        # print(first_choice)
         # Any one has a majority? If so, return the winner
         winner = count_majority(first_choice)
         if winner >= 0:
@@ -165,7 +165,7 @@ def irv(ballot, candidates):
                 fewest_candidate_index = index
         # elimination
         removed_candidates.add(fewest_candidate_index)
-        print(removed_candidates)
+        # print(removed_candidates)
 
     # Handle the tie:
     if winner == -2:
