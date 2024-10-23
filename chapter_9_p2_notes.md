@@ -120,16 +120,7 @@ def get_evens():
 ### Solution using `break` and/or `continue`
 
 ```python
-def get_evens():
-    evens = []
-    while True:
-        v = input("Input: ")
-        if v == "Done":
-            break
-        if int(v) % 2 != 0:
-            continue
-        evens.append(int(v))
-    return evens
+# TBA after the class
 ```
 ### Chapter 8: Modules
 - How to use `import`
