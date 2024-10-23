@@ -1,4 +1,4 @@
-## Table of Contents: Chapter 9 demos and Practice quiz 4
+## Outline: Chapter 9 demos and Practice quiz 4
 
 - [Announcements](#announcements)
 - [Today's class](#todays-class)

@@ -1,5 +1,5 @@
-## Table of Content: Chapter 9 preview
-- [Table of Content: Chapter 9 preview](#table-of-content-chapter-9-preview)
+## Outline: Chapter 9 preview
+- [Outline: Chapter 9 preview](#outline-chapter-9-preview)
 - [Announcements](#announcements)
 - [Today's class](#todays-class)
 - [POGIL: Advanced Strings](#pogil-advanced-strings)
