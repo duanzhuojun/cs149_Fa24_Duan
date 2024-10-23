@@ -97,7 +97,7 @@ True
 -  The `random` module
    -  `randint(), random(), seed()`
    -  How to use them?
--  Review `while` loop [examples and demos](https://duanzhuojun.github.io/cs149_Fa24_Duan/chapter_7_preview.html#demo-while-loop)
+-  Review `while` loop: [examples and demos](https://duanzhuojun.github.io/cs149_Fa24_Duan/chapter_7_preview.html#demo-while-loop)
 
 ### Practice
 Define a Python function `get_evens()`, which prompt the user to enter integer values using the keyboard until they enter `Done`, then return a list of all even numbers.
