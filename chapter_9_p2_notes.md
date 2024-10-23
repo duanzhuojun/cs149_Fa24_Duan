@@ -33,7 +33,7 @@
 
 | Methods	      | Returns ?	|
 | -----------   | --------------- |
-|`find(x)`      | Returns the index of the first occurrence of the substring `x` or -1 if not found. |
+|`find(x)`      | Returns the index of the first occurrence of the substring `x` or `-1` if not found. |
 |`count(x)`     | Returns the number of times `x` occurs in the string. |
 |`isdigit()`    | Returns `True` if **all** characters are the numbers 0-9.|
 |`islower()`    | Returns `True` if **all** cased characters are lowercase letters.|
@@ -77,7 +77,7 @@ True
 - `append(x)` VS. `extend([x])`
 - `insert(i, x)`
 #### Removing elements
-`remove(x)` VS. `pop(i)`
+- `remove(x)` VS. `pop(i)`
 #### Advanced
 - `index(x)`: Return index of first item in list with value `x`.
   - Python list has no `find(x)` method. The `find(x)` method is specific to strings
