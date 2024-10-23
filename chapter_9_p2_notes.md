@@ -74,7 +74,7 @@ True
 ## Python list methods
 ### Commonly used Python list methods
 #### Adding elements
-- `append(x)` VS. `extend([x])`
+- `append(x)`
 - `insert(i, x)`
 #### Removing elements
 - `remove(x)` VS. `pop(i)`
@@ -85,7 +85,9 @@ True
 
 ### Python function/methods that convert strings into lists.
 - The `list()` function can be used to convert a string into a list of individual characters.
-- The `split()` method splits a string into a list of substrings based on a specified delimiter (default is whitespace).
+- The `split()` list method splits a string into a list of substrings based on a specified delimiter (default is whitespace).
+  - The `join()` string method performs the inverse operation of split() by joining a list of strings together to create a single string.
+    - `ss = "/".join(["10", "23", "2024"])`
 
 ### More practices: Codingbat [List-2](https://codingbat.com/python/List-2)
 - Complete it after the class if you are looking for more practices
