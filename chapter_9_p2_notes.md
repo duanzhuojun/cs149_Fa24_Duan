@@ -28,7 +28,7 @@
 2. (20 mins)Review `while` loop and modules
 3. (30 mins)Practice quiz 4
 
-## Practices: Python string methods
+## Python string methods
 ### Commonly used Python string methods.
 
 | Methods	      | Returns ?	|
@@ -71,7 +71,7 @@ Define a Python function named `end_second(first, second)` that returns `True` i
 True
 ```
 
-## Practices: Python list methods
+## Python list methods
 ### Commonly used Python list methods
 #### Adding elements
 - `append(x)` VS. `extend([x])`
