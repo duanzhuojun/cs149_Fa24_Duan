@@ -43,11 +43,6 @@ class TestElection(JmuTestCase):
         # PEP 8 checks
         self.assertPassesPep8(FILENAME)
 
-
-
-
-    # test_nums = [1, 3, 5, 6, 8, 2, 1]
-
     @weight(2)
     def test_count_popular(self):
         count0=[10, 10, 1]
