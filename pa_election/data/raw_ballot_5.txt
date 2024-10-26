@@ -1,0 +1,6 @@
+voterID State A B C D
+Voter0 LA 4 1 2 3
+Voter1 AZ 3 4 1 2
+Voter2 MO 3 2 4 1
+Voter3 MN 2 3 1 4
+Voter4 AZ 2 1 4 3

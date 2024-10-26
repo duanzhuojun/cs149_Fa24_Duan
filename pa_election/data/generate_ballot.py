@@ -55,6 +55,18 @@ def create_fake_ballot_csv_100():
         out.write(line + "\n")
 
     out.close()
+
+def create_fake_ballot_space_text_10():
+    out = open("raw_ballot_10.txt", "w")
+    out.write("voterID State A B C D\n")
+    preference = [1,2,3,4]
+    for i in range(10):
+        random.shuffle(preference)
+        line = f"Voter{i} {random.choice(states_list)} {' '.join(map(str, preference))}"
+        out.write(line + "\n")
+
+    out.close()
 # create_fake_ballot_csv()
-create_fake_ballot_csv_5()
-create_fake_ballot_csv_100()
+# create_fake_ballot_csv_5()
+# create_fake_ballot_csv_100()
+create_fake_ballot_space_text_10()
