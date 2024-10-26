@@ -10,10 +10,11 @@ import os
 import json
 
 def read_first_choice(ballot_file, delimiter):
-    """Read first choice counts from raw ballot file
+    """Read first choice counts from raw ballot file, return -1 if the file does not exist
 
     Args:
         ballot_file (String): path to the raw ballot file
+        delimiter (String): the delimiter
 
     Returns:
         list: the candidates' first choice counts
