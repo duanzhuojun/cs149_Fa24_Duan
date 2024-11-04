@@ -20,6 +20,6 @@ def study_places(buildings):
     
     return study
 
-rooms = ["King Hall", "D Hall", "ETMC"]
+rooms = ["King Hall", "D Hall", "ETMC", "D Hall"]
 print(study_places(rooms))
             
