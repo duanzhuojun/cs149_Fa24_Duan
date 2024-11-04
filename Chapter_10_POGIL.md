@@ -1,6 +1,6 @@
 ## Announcements
 1. [PA 2 World of Elections](https://w3.cs.jmu.edu/cs149/f24/pa/pa2/)
-- Part A - Reading quiz in canvas - Done
+- Part A - Reading quiz in canvas - End of today.
 - Part B due Friday 11/08 (30 pts)
 - Part C due Friday 11/15 (70 pts)
 2. Practice quiz 4 this Thursday 11/17, in King248
@@ -43,6 +43,16 @@ afile.write(2.0)
 afile.write("2.0")
 afile.close()
 afile.write("new line\n")
+```
+#### After running the above code, the file contents should be:
+
+```
+Example output text file
+xyz Coordinates
+MODEL
+ATOM   1n   0.0  1.0  2.0
+new line
+2.0
 ```
 
 ### Code snippets in model 3
