@@ -10,10 +10,10 @@
 ## Today's class
 1. (40 mins)POGIL: File IO
 2. (20 mins)Demos
-    - `split()` method
-    - `close()` method is important
-    - Use 'with statement'
-    - how to decide file does not exist
+    - The `close()` method is crucial for saving changes and freeing resources.
+    - Use the `with` statement for file handling
+    - `read()` Vs. `readline()` and `readlines()`
+    - To check if a file exists, use `os.path.exists()`
 3. (15 mins)PA2 part B hints
 
 ## POGIL: File IO
