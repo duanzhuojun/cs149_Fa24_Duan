@@ -20,3 +20,4 @@
 ## [Chapter_9 part 2 notes](chapter_9_p2_notes.md)
 ## [Quiz 4 review and PA1 QA](quiz4_review_pa1_QA.md)
 ## [Chapter_10 POGIL and demos](Chapter_10_POGIL.md)
+## [Chapter_11 preview and practice quiz 5](chapter_11_preview.md)
