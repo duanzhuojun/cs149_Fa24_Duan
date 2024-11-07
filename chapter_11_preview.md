@@ -13,8 +13,9 @@
 
 ## Chapter 11(Nested data) preview
 
-** POGIL: Lists of Lists**
+**POGIL: Lists of Lists**
    - complete the activity in 10 minutes
+   - Discussion
 
 **List comprehensions**
 - The Python language provides a convenient construct, known as list comprehension,
