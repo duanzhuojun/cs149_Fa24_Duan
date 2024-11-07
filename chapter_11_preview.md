@@ -14,7 +14,7 @@
 ## Chapter 11(Nested data) preview
 
 **POGIL: Lists of Lists**
-   - complete the activity in 10 minutes
+   - Complete the activity in 10 minutes
    - Discussion
 
 **List comprehensions**
