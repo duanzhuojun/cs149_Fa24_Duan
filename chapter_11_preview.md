@@ -17,6 +17,17 @@
    - Complete the activity in 10 minutes
    - Discussion
 
+```
+grid = [
+    [' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    [' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    ['Y', ' ', ' ', ' ', 'Y', 'Y', ' '],
+    ['R', ' ', ' ', 'Y', 'R', 'R', ' '],
+    ['R', 'R', 'Y', 'R', 'Y', 'R', ' '],
+    ['R', 'Y', 'R', 'Y', 'Y', 'Y', 'R'],
+]
+```
+
 **List comprehensions**
 - The Python language provides a convenient construct, known as list comprehension,
 that iterates over a list, modifies each element, and returns a new list of the modified elements.
