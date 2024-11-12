@@ -2,8 +2,8 @@
 1. [PA 2 World of Elections](https://w3.cs.jmu.edu/cs149/f24/pa/pa2/)
 - Part A - Reading quiz in canvas - Done.
 - Part B due Friday 11/08 - Done.
-- Part C due Friday 11/15 (70 pts)
-1. Quiz 5 this Thursday 11/17, in King248
+- Part C due Friday 11/15 (60 pts)
+1. Quiz 5 this Thursday 11/14, in King248
 - Covers chapters 9 and 10: Sequence and File I/O
 - Review the solution of Practice quiz 5
   - Solution will be posted after the class today
