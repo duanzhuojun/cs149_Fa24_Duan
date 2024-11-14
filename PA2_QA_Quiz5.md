@@ -21,6 +21,8 @@
 A JSON file stores data in key-value pairs and arrays. There may be a dictionary or a list at the top level.
 JSON allows developers to store various data types as human-readable code, with the keys serving as names and the values containing related data.
 
+**In order to understand the structure of the data in these files, you can either open the files in VS Code and format them, you can open them in Chrome and Chrome can format them, or you can go to one of many JSON pretty print websites such as jsonformatter.org and paste the data there for formatting.**
+
 ### JSON Data example:
 - JSON sample files [download](https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files)
 - Real dataset: County Demographics [download](https://corgis-edu.github.io/corgis/json/county_demographics/)
