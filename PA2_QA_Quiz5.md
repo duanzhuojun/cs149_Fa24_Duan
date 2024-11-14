@@ -7,6 +7,10 @@
 - Part A due Tuesday, 11/19
 - Part B due Friday, 11/22
 - Part C due Wednesday, 12/04
+- Main Idea
+    - Read last.fm data from json files
+    - Build playlists and find new songs
+    - PA 3 specification and [sample data](https://w3.cs.jmu.edu/cs149/f24/pa/pa3/stubs/sample_data.py)
 
 ## Today's class
 1. (20 mins) Load JSON file
@@ -14,7 +18,7 @@
 3. (30 mins) Quiz 5
 
 ### JSON file
-A JSON file stores data in key-value pairs and arrays.
+A JSON file stores data in key-value pairs and arrays. There may be a dictionary or a list at the top level.
 JSON allows developers to store various data types as human-readable code, with the keys serving as names and the values containing related data.
 
 ### JSON Data example:
