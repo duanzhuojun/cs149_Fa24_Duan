@@ -16,7 +16,9 @@
 
 ## Today's class
 1. (45 mins) POGIL: Recursive Functions
-2. (30 mins) PA3 QA
+2. (10 mins) Command-line arguments
+   1. Zybook: chapter 10.5
+3. (20 mins) PA3 QA
 
 ## POGIL: Recursive Functions
 - POGIL Recursive Functions [worksheet](pogil_sheet\Act12-Recursive_Student.pdf).
@@ -51,4 +53,39 @@ def fibonacci(n):
 if __name__ == "__main__":
     for i in range(1, 6):
         print(fibonacci(i))
+```
+## Command-line arguments
+Command-line arguments are values entered by a user when running a program from a command line.
+###
+1. To execute commands, opening PowerShell/commandline shell on Windows, or Opening Terminal on Mac.
+2. Ensure the script file (e.g., `command_line.py`) is saved in a directory you can access. Or change to the directory containing the script:
+
+```
+cd /path/to/your/command_line.py
+```
+3. Run the Script
+```
+python command_line.py
+```
+4. Pass Arguments when running the script:
+```
+python3 command_line.py arg1 arg2
+```
+### Command-line arguments example
+```py
+import sys
+import os
+
+if __name__ == "__main__":
+
+    if len(sys.argv) != 2:
+        print("Usage: python command_line.py <input_file>")
+        sys.exit(1)
+
+    if not os.path.exists(sys.argv[1]):
+        print(f'Input file {sys.argv[1]} does not exist.')
+        sys.exit(1)
+
+    print("argv0 is", sys.argv[0], "argv1 is", sys.argv[1])
+
 ```
