@@ -59,7 +59,6 @@ Command-line arguments are values entered by a user when running a program from 
 ###
 1. To execute commands, opening PowerShell/commandline shell on Windows, or Opening Terminal on Mac.
 2. Ensure the script file (e.g., `command_line.py`) is saved in a directory you can access. Or change to the directory containing the script:
-
 ```
 cd /path/to/your/command_line.py
 ```
