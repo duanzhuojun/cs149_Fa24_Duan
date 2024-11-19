@@ -13,6 +13,7 @@
 3. Thursday's class
    1. Practice Quiz 6
    2. Help with PA3
+4. [CS/IT game night event](https://w3.cs.jmu.edu/cs149/f24/csit/gamenight/): Today at 5:30pm in King Hall 259
 
 ## Today's class
 1. (45 mins) POGIL: Recursive Functions
