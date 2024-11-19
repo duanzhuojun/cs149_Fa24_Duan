@@ -72,6 +72,7 @@ python command_line.py
 python3 command_line.py arg1 arg2
 ```
 ### Command-line arguments example
+
 ```py
 import sys
 import os
