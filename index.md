@@ -3,9 +3,9 @@
 **Setup**
 
 * Download and unzip the provided code:
-    * :code: [review2.zip](review2.zip)
+    * [review2.zip](review2.zip)
 * If needed, add this file to your `data` folder:
-    * :code: [fulltracks.json](https://w3.cs.jmu.edu/cs149/f24/pa/pa3/data/fulltracks.json)
+    * [fulltracks.json](https://w3.cs.jmu.edu/cs149/f24/pa/pa3/data/fulltracks.json)
 
 **Instructions**
 
@@ -13,6 +13,7 @@
 * After each exercise, run the corresponding test function
     * In VS Code, click the ":material-play:" button
     * In Thonny, run the shell command:
+
       ```
       !pytest -q -k test_ch09
       ```
@@ -33,6 +34,7 @@
     Return the updated string with the appropriate indentation applied.
 
     For example, given the string:
+
     ```
     Quiz 5
     * Chapter 9: Sequences
@@ -42,6 +44,7 @@
     * Chapter 12: Recursion
     ```
     Return the string:
+
     ```
     Quiz 5
         * Chapter 9: Sequences
@@ -71,6 +74,7 @@
     The function should return the line number and column number of the first occurrence.
 
     For example, given the file contents:
+
     ```
     Practice makes progress.
     Time and tide wait for none.
@@ -97,6 +101,7 @@
     Also print a label before the statistics to identify the output.
 
     For example, `print_stats("Letters:", {"A", "BB", "CCC", "DDD"})` would print:
+
     ```
     Letters: min = 1.0, median = 2.5, mean = 2.2, min = 3.0
     ```
@@ -129,6 +134,7 @@
     If `data` is a list, the function recursively searches each index-value pair of the list.
 
     For example, given the data:
+
     ``` json
     {
         "name": "Alice",
