@@ -24,4 +24,5 @@
 ## [Chapter_11 part 2 notes](chapter_11_part_2.md)
 ## [PA2 QA, JSON, and Quiz 5](PA2_QA_Quiz5.md)
 ## [chapter 12 POGIL notes](chapter_12_POGIL.md)
-## [cs149 Review 1](review2.md)
+## [CS149 review day 1 notes](cs149_final_review_1.md)
+## [cs149 Review activities for chapters 9-12](review2.md)

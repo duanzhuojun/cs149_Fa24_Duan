@@ -49,7 +49,7 @@ Return the string:
 Quiz 5
     * Chapter 9: Sequences
     * Chapter 10: File I/O
-    Quiz 6
+Quiz 6
     * Chapter 11: Nested Data
     * Chapter 12: Recursion
 ```

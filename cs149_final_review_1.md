@@ -17,8 +17,28 @@
 
 
 ## Today's class
-1. Solution of Practice quiz 6
-2. [Review](review_chaps_9-12\index.md)
+1. (30 mins) Solution of Practice quiz 6
+2. (20 mins) PA3 QA
+3. (25 mins) Review activities for chapters 9-12
 
 
-### Review:
+### Solution of Practice quiz 6
+- [Practice quiz 6 worksheet](https://w3.cs.jmu.edu/cs149/f24/quiz/practice6/)
+- Please download the solution for Practice quiz 6:
+  - [Solution for Practice quiz 6](pogil_sheet\PracticeQuiz6_Answers.pdf)
+- Review the solution and ask questions.
+
+### PA3 part C
+#### About 'Test circular friendships':
+Here is the test cases in gradescope:
+
+```Python
+data = {"A": ["B"], "B": ["C"], "C": ["B", "A"]}
+self.assertEqual(influence(data, "B"), 4, "check return values in influence()")
+self.assertEqual(separation(data, "B", "A"), 2, "check return values in separation()")
+```
+If your code cannot pass the case above, I will return points to you manually.
+
+### Review activities for chapters 9-12
+- [Review activities](https://duanzhuojun.github.io/cs149_Fa24_Duan/review2.html)
+- Complete it before the final exam.
