@@ -26,3 +26,4 @@
 ## [chapter 12 POGIL notes](chapter_12_POGIL.md)
 ## [CS149 review day 1 notes](cs149_final_review_1.md)
 ## [cs149 Review activities for chapters 9-12](review2.md)
+## [CS149 review day 2 notes](cs149_final_review_2.md)
