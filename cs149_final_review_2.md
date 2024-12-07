@@ -1,6 +1,6 @@
 ## Announcements
 1. [Final exam schedule](https://www.jmu.edu/registrar/wm_library/fall_exam_schedule.pdf)
-   1. All written exam - like the Quiz 4-6
+   1. All written exam - like the Quiz 4-6 - Bring your pencils
    2. 2 hours, cover all content this semester
 2. Office hours in the final week
    1. Monday: 1-5pm in person
@@ -13,7 +13,7 @@
 3. (30 mins) Quiz 6
 4. (30 mins) Practice for final exam
 
-### TA Survey
+### [TA Survey](https://canvas.jmu.edu/courses/2035420/quizzes/4540516)
 - Help us improve the TA program
 
 ### Course evaluation
