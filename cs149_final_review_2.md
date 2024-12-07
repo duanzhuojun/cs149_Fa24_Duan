@@ -1,11 +1,10 @@
 ## Announcements
-1. [CS/IT study night event](https://w3.cs.jmu.edu/cs149/f24/csit/wit_study_night/)
-   1. Today 5-7pm, in King348
-   2. Snacks and musics!
-   3. Meet CS149/CS159 professors and students
-2. [Final exam schedule](https://www.jmu.edu/registrar/wm_library/fall_exam_schedule.pdf)
+1. [Final exam schedule](https://www.jmu.edu/registrar/wm_library/fall_exam_schedule.pdf)
    1. All written exam - like the Quiz 4-6
    2. 2 hours, cover all content this semester
+2. Office hours in the final week
+   1. Monday: 1-5pm in person
+   2. Other times by appointment via email
 
 
 ## Today's class
