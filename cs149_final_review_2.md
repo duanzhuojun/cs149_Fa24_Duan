@@ -26,8 +26,7 @@
 - Turn off monitor during quiz
 
 ### Practice for Final exam
-- All 6 Practice quizzes
-- All 6 actual quizzes - Gradescope & Canvas
+- [Final exam preparation guideline](https://canvas.jmu.edu/courses/2035420/assignments/19352665)
 - [More practices from previous semester](https://www.the-chaos.com/alvin/cs149fall2024/labs/15_lab17-exam-review/)
    - Submit your coding portion to Gradescope
    - Name the coding file as 'practice_final.py'.
